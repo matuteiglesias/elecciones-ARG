@@ -1,0 +1,73 @@
+distrito_id,seccionprovincial_id,seccionprovincial_nombre
+1,0,
+4,0,
+3,0,
+18,0,
+5,0,
+6,0,
+7,0,
+13,11,Tercera Sección
+13,9,Primera Sección
+9,0,
+11,0,
+13,10,Segunda Sección
+14,0,
+17,0,
+13,12,Cuarta Sección
+19,0,
+20,0,
+21,0,
+22,0,
+8,0,
+23,13,Sección 1 - Capital
+23,15,Sección 3 - Oeste
+23,14,Sección 2 - Este
+24,0,
+2,4,Cuarta Sección
+2,6,Sexta Sección
+2,1,Primera Sección
+16,0,
+2,3,Tercera Sección
+2,7,Séptima Sección
+2,2,Segunda Sección
+15,0,
+2,5,Quinta Sección
+10,0,
+2,8,Sección Capital
+12,0,
+9,0,
+10,0,
+12,0,
+14,0,
+18,0,
+19,0,
+20,0,
+1,0,
+3,0,
+4,0,
+5,0,
+6,0,
+7,0,
+8,0,
+11,0,
+15,0,
+16,0,
+17,0,
+21,0,
+22,0,
+24,0,
+2,6.0,Sexta Sección
+2,4.0,Cuarta Sección
+2,3.0,Tercera Sección
+2,5.0,Quinta Sección
+2,7.0,Séptima Sección
+2,2.0,Segunda Sección
+2,1.0,Primera Sección
+2,8.0,Sección Capital
+13,9.0,Primera Sección
+13,11.0,Tercera Sección
+13,10.0,Segunda Sección
+13,12.0,Cuarta Sección
+23,13.0,Sección 1 - Capital
+23,15.0,Sección 3 - Oeste
+23,14.0,Sección 2 - Este

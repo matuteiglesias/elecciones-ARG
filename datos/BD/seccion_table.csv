@@ -1,0 +1,533 @@
+distrito_id,seccion_id,seccionprovincial_id,seccion_nombre
+1,15,0.0,Comuna 15
+1,1,0.0,Comuna 01
+1,4,0.0,Comuna 04
+4,1,0.0,Capital
+4,26,0.0,Unión
+1,8,0.0,Comuna 08
+1,5,0.0,Comuna 05
+1,12,0.0,Comuna 12
+1,9,0.0,Comuna 09
+1,2,0.0,Comuna 02
+1,13,0.0,Comuna 13
+3,1,0.0,Capital
+18,12,0.0,Pocito
+3,7,0.0,Paclin
+3,10,0.0,Ambato
+1,3,0.0,Comuna 03
+3,12,0.0,Andalgalá
+1,10,0.0,Comuna 10
+3,9,0.0,Fray Mamerto Esquiú
+1,6,0.0,Comuna 06
+3,15,0.0,Tinogasta
+3,16,0.0,Santa María
+3,13,0.0,Belén
+4,5,0.0,General Roca
+4,4,0.0,Cruz Del Eje
+1,11,0.0,Comuna 11
+3,2,0.0,Capayan
+4,12,0.0,Punilla
+4,16,0.0,Río Segundo
+4,18,0.0,San Alberto
+4,13,0.0,Río Cuarto
+3,6,0.0,Santa Rosa
+4,17,0.0,Roque Sáenz Peña
+1,7,0.0,Comuna 07
+1,14,0.0,Comuna 14
+4,7,0.0,Ischilin
+3,11,0.0,Pomán
+3,8,0.0,Valle Viejo
+4,6,0.0,General San Martín
+4,19,0.0,San Javier
+4,20,0.0,San Justo
+5,3,0.0,Curuzú Cuatiá
+4,8,0.0,Juárez Celman
+4,23,0.0,Tercero Arriba
+4,2,0.0,Calamuchita
+4,25,0.0,Tulumba
+4,24,0.0,Totoral
+6,1,0.0,San Fernando
+4,21,0.0,Santa María
+5,2,0.0,Goya
+4,9,0.0,Marcos Juárez
+4,14,0.0,Río Primero
+5,1,0.0,Capital
+4,3,0.0,Colón
+4,22,0.0,Sobremonte
+7,1,0.0,Rawson
+6,11,0.0,Mayor L. J. Fontana
+6,12,0.0,O'Higgins
+4,11,0.0,Pocho
+3,3,0.0,La Paz
+5,4,0.0,Mercedes
+6,25,0.0,General Güemes
+6,13,0.0,Comandante Fernández
+7,6,0.0,Futaleufú
+5,20,0.0,Sauce
+13,2,11.0,Godoy Cruz
+13,3,9.0,Guaymallén
+9,4,0.0,Pirané
+7,2,0.0,Biedma
+9,3,0.0,Pilcomayo
+4,10,0.0,Minas
+7,13,0.0,Río Senguer
+5,7,0.0,Santo Tomé
+13,4,9.0,Las Heras
+7,12,0.0,Gaiman
+6,14,0.0,Quitilipi
+7,15,0.0,Escalante
+6,15,0.0,25 De Mayo
+7,8,0.0,Tehuelches
+5,6,0.0,Lavalle
+6,17,0.0,Independencia
+5,9,0.0,Monte Caseros
+11,2,0.0,Capital
+6,18,0.0,General Belgrano
+9,6,0.0,Patiño
+7,11,0.0,F. Ameghino
+7,14,0.0,Sarmiento
+6,21,0.0,12 De Octubre
+7,4,0.0,Gastre
+5,11,0.0,Bella Vista
+13,6,10.0,Maipú
+4,15,0.0,Río Seco
+6,24,0.0,Almirante Brown
+6,16,0.0,Maipú
+6,20,0.0,Chacabuco
+9,9,0.0,Ramón Lista
+6,7,0.0,Bermejo
+13,5,9.0,Lavalle
+7,5,0.0,Cushamen
+5,8,0.0,Paso De Los Libres
+11,15,0.0,Maraco
+13,8,11.0,Tupungato
+11,1,0.0,Atreuco
+11,4,0.0,Catriló
+11,10,0.0,Guatrache
+5,18,0.0,Mburucuya
+9,1,0.0,Formosa
+13,7,11.0,Luján
+14,1,0.0,Capital
+5,12,0.0,Empedrado
+5,15,0.0,Saladas
+5,21,0.0,San Cosme
+13,9,10.0,San Martín
+5,17,0.0,Concepción
+5,14,0.0,General Paz
+6,23,0.0,Fray J. Sta. María De Oro
+13,12,11.0,Tunuyán
+11,8,0.0,Conhelo
+14,16,0.0,Iguazú
+5,13,0.0,San Roque
+5,16,0.0,San Martín
+11,6,0.0,Chapaleufu
+17,19,0.0,Molinos
+13,16,12.0,San Rafael
+14,3,0.0,Candelaria
+14,2,0.0,Apóstoles
+14,5,0.0,Concepción De La Sierra
+6,19,0.0,9 De Julio
+5,10,0.0,San Luis Del Palmar
+11,16,0.0,Puelen
+17,21,0.0,Rosario De Lerma
+14,4,0.0,Leandro N. Alem
+11,18,0.0,Rancul
+14,15,0.0,San Pedro
+11,12,0.0,Loventue
+17,18,0.0,San Carlos
+9,5,0.0,Pilagas
+13,11,10.0,Rivadavia
+17,12,0.0,Chicoana
+17,9,0.0,Iruya
+5,19,0.0,Ituzaingo
+13,14,10.0,Santa Rosa
+13,17,12.0,Malargüe
+19,3,0.0,Pedernera
+14,7,0.0,San Ignacio
+17,15,0.0,Rosario De La Frontera
+13,18,12.0,General Alvear
+18,1,0.0,Capital
+14,6,0.0,San Javier
+17,14,0.0,Guachipas
+14,8,0.0,Oberá
+13,13,11.0,San Carlos
+17,1,0.0,Capital
+18,4,0.0,Rivadavia
+11,19,0.0,Realicó
+11,11,0.0,Hucal
+19,7,0.0,Ayacucho
+18,2,0.0,Santa Lucía
+19,6,0.0,Junín
+14,9,0.0,L. General San Martín
+13,1,9.0,Capital
+20,1,0.0,Deseado
+14,10,0.0,Cainguas
+14,12,0.0,Montecarlo
+11,20,0.0,Toay
+18,15,0.0,Caucete
+19,4,0.0,Chacabuco
+14,11,0.0,25 De Mayo
+19,1,0.0,Pueyrredon
+17,8,0.0,San Martín
+6,22,0.0,2 De Abril
+21,14,0.0,
+13,15,10.0,La Paz
+18,7,0.0,Nueve De Julio
+18,14,0.0,25 De Mayo
+21,6,0.0,General López
+18,6,0.0,Rawson
+17,4,0.0,Metán
+9,2,0.0,Laishi
+18,8,0.0,San Martín
+14,17,0.0,General Manuel Belgrano
+18,11,0.0,Ullúm
+14,13,0.0,Guaraní
+20,5,0.0,Corpen Aike
+20,2,0.0,Lago Buenos Aires
+22,8,0.0,Copo
+14,14,0.0,El Dorado
+22,12,0.0,Jiménez
+22,9,0.0,Choya
+18,3,0.0,Chimbas
+22,6,0.0,Banda
+22,4,0.0,Alberdi
+19,2,0.0,Pringles
+6,2,0.0,Primero De Mayo
+18,17,0.0,Jáchal
+20,4,0.0,Río Chico
+20,7,0.0,Güer Aike
+11,22,0.0,Utracán
+22,5,0.0,Atamisqui
+21,15,0.0,
+17,3,0.0,General Güemes
+8,2,0.0,
+23,1,13.0,Capital
+18,9,0.0,Angaco
+20,6,0.0,Lago Argentino
+18,10,0.0,Albardón
+23,2,15.0,Lules
+21,17,0.0,San Javier
+23,4,15.0,Monteros
+21,16,0.0,San Cristóbal
+21,19,0.0,San Justo
+22,22,0.0,Río Hondo
+21,1,0.0,Belgrano
+21,20,0.0,San Lorenzo
+21,18,0.0,San Jerónimo
+21,21,0.0,San Martín
+22,27,0.0,Taboada
+22,21,0.0,Robles
+23,5,15.0,Chicligasta
+21,2,0.0,Caseros
+6,8,0.0,Lib. Gral. San Martín
+22,18,0.0,Pellegrini
+22,16,0.0,Moreno
+21,7,0.0,General Obligado
+23,3,15.0,Famaillá
+6,4,0.0,General Donovan
+22,17,0.0,Ojo De Agua
+21,22,0.0,Vera
+22,1,0.0,Capital
+23,8,15.0,La Cocha
+22,15,0.0,Mitre
+22,11,0.0,Guasayán
+21,9,0.0,La Capital
+23,6,15.0,Río Chico
+23,12,14.0,Cruz Alta
+23,9,14.0,Graneros
+24,1,0.0,Ushuaia
+23,11,14.0,Leales
+22,20,0.0,Rivadavia
+21,10,0.0,
+6,9,0.0,Tapenaga
+21,12,0.0,Nueve De Julio
+21,3,0.0,Castellanos
+21,8,0.0,Iriondo
+24,2,0.0,Río Grande
+21,11,0.0,Las Colonias
+23,7,15.0,Alberdi
+23,15,15.0,Yerba Buena
+23,10,14.0,Simoca
+23,16,15.0,Tafí Viejo
+23,14,14.0,Trancas
+21,4,0.0,Constitución
+21,13,0.0,Rosario
+8,8,0.0,Tala
+19,9,0.0,Gobernador Dupuy
+23,13,14.0,Burruyacu
+21,5,0.0,Garay
+2,60,4.0,Junín
+2,57,6.0,Guamini
+8,17,0.0,Federación
+2,31,4.0,Chivilcoy
+2,134,1.0,Hurlingham
+16,6,0.0,25 De Mayo
+2,89,1.0,Pilar
+2,92,3.0,Quilmes
+2,118,1.0,Tres De Febrero
+2,70,3.0,Lomas De Zamora
+2,38,3.0,Florencio Varela
+2,121,7.0,25 De Mayo
+2,83,4.0,Nueve De Julio
+2,25,6.0,Coronel Dorrego
+2,99,7.0,Saladillo
+2,105,1.0,San Fernando
+2,6,7.0,Azul
+2,9,2.0,Baradero
+8,1,0.0,Paraná
+2,67,4.0,Lincoln
+15,1,0.0,Confluencia
+2,133,1.0,Ituzaingo
+2,130,1.0,Malvinas Argentinas
+2,72,3.0,Magdalena
+2,34,3.0,Ensenada
+2,5,5.0,Ayacucho
+2,11,3.0,Berazategui
+6,6,0.0,Pcia. De La Plaza
+22,24,0.0,San Martín
+2,12,3.0,Berisso
+18,19,0.0,Calingasta
+10,1,0.0,General Belgrano
+2,61,3.0,La Matanza
+2,122,1.0,Vicente López
+2,28,6.0,Coronel Suárez
+2,54,4.0,General Viamonte
+2,22,6.0,Patagones
+2,73,5.0,Maipú
+2,76,1.0,Mercedes
+2,44,6.0,General La Madrid
+2,87,2.0,Pergamino
+2,55,4.0,General Villegas
+2,3,3.0,Almirante Brown
+8,3,0.0,La Paz
+2,91,6.0,Puan
+2,62,3.0,Lanús
+2,4,3.0,Avellaneda
+16,1,0.0,Adolfo Alsina
+2,94,5.0,Rauch
+2,63,8.0,La Plata
+2,124,6.0,Villarino
+2,43,5.0,General Guido
+16,12,0.0,General Roca
+15,4,0.0,Pehuenches
+2,1,6.0,Adolfo Alsina
+8,9,0.0,Uruguay
+2,129,1.0,J. C. Paz
+2,51,1.0,General Rodríguez
+16,9,0.0,Bariloche
+2,113,1.0,Tigre
+2,52,1.0,General San Martín
+2,46,5.0,General Lavalle
+2,20,4.0,Carlos Tejedor
+2,107,2.0,San Nicolás
+2,125,2.0,Zárate
+2,26,6.0,Coronel Pringles
+2,65,5.0,Las Flores
+2,36,3.0,Esteban Echeverría
+2,7,6.0,Bahía Blanca
+2,78,5.0,Monte
+2,123,5.0,Villa Gesell
+2,82,5.0,Necochea
+10,7,0.0,Ledesma
+2,110,1.0,Suipacha
+2,30,5.0,Chascomús
+2,33,5.0,Dolores
+2,115,4.0,Trenque Lauquen
+2,85,4.0,Pehuajó
+2,17,3.0,Cañuelas
+2,119,5.0,La Costa
+2,131,3.0,Punta Indio
+2,102,2.0,San Andrés De Giles
+2,53,1.0,San Miguel
+2,18,2.0,Capitán Sarmiento
+2,79,1.0,Moreno
+2,50,5.0,General Pueyrredón
+12,12,0.0,Chamical
+16,3,0.0,San Antonio Oeste
+15,13,0.0,Collon Curá
+2,35,1.0,Escobar
+15,2,0.0,Zapala
+2,24,2.0,Colón
+2,114,6.0,Tornquist
+2,27,6.0,Coronel Rosales
+2,47,5.0,General Madariaga
+2,8,5.0,Balcarce
+2,40,7.0,General Alvear
+2,101,2.0,Salto
+2,66,4.0,Leandro N. Alem
+2,84,7.0,Olavarría
+2,49,4.0,General Pinto
+16,2,0.0,Conesa
+2,32,6.0,Daireaux
+16,11,0.0,Avellaneda
+12,15,0.0,Juan Facundo Quiroga
+2,59,6.0,Benito Juárez
+8,10,0.0,Gualeguaychú
+2,117,6.0,Tres Arroyos
+2,111,5.0,Tandil
+8,4,0.0,Diamante
+2,81,1.0,Navarro
+2,75,1.0,Marcos Paz
+15,14,0.0,Huiliches
+2,15,3.0,Brandsen
+2,96,2.0,Rojas
+8,13,0.0,Concordia
+2,108,2.0,San Pedro
+12,3,0.0,Castro Barros
+2,95,4.0,Rivadavia
+2,21,2.0,Carmen De Areco
+2,90,5.0,Pinamar
+2,106,1.0,San Isidro
+15,15,0.0,Lácar
+2,132,3.0,Ezeiza
+2,16,1.0,Campana
+2,103,2.0,San Antonio De Areco
+2,37,2.0,Exaltación De La Cruz
+18,18,0.0,Iglesia
+2,77,1.0,Merlo
+2,80,1.0,Morón
+2,42,5.0,General Belgrano
+2,109,3.0,San Vicente
+12,1,0.0,Capital
+10,11,0.0,Humahuaca
+2,19,4.0,Carlos Casares
+2,13,7.0,Bolívar
+2,41,4.0,General Arenales
+2,128,3.0,Presidente Perón
+24,3,0.0,Antártida Argentina
+2,39,5.0,General Alvarado
+8,6,0.0,Nogoyá
+2,116,5.0,Tordillo
+2,29,4.0,Chacabuco
+22,7,0.0,Belgrano
+12,7,0.0,Famatina
+2,69,3.0,Lobos
+2,14,4.0,Bragado
+6,5,0.0,Sargento Cabral
+2,112,7.0,Tapalqué
+2,127,4.0,F. Ameghino
+15,5,0.0,Chos Malal
+10,15,0.0,Yavi
+8,7,0.0,Gualeguay
+2,88,5.0,Pila
+7,9,0.0,Paso De Indios
+2,45,1.0,General Las Heras
+2,48,5.0,General Paz
+10,5,0.0,San Pedro
+12,6,0.0,Chilecito
+11,21,0.0,Trenel
+2,10,2.0,Arrecifes
+10,2,0.0,Palpalá
+2,104,5.0,San Cayetano
+15,6,0.0,Minas
+2,68,5.0,Loberia
+2,126,6.0,Tres Lomas
+2,93,2.0,Ramallo
+15,3,0.0,Añelo
+16,8,0.0,Pilcaniyeu
+2,58,4.0,Hipólito Yrigoyen
+2,64,6.0,Laprida
+15,7,0.0,Ñorquín
+10,4,0.0,El Carmen
+19,5,0.0,San Martín
+10,10,0.0,Tilcara
+2,56,6.0,Adolfo Gonzales Chaves
+10,9,0.0,Tumbaya
+22,13,0.0,Loreto
+12,11,0.0,Independencia
+23,17,15.0,Tafí Del Valle
+2,74,5.0,Mar Chiquita
+16,10,0.0,Pichi Mahuida
+12,17,0.0,Rosario Vera Peñaloza
+15,9,0.0,Picunches
+8,12,0.0,Villaguay
+8,15,0.0,Colón
+6,10,0.0,San Lorenzo
+22,25,0.0,Salavina
+15,16,0.0,Los Lagos
+10,6,0.0,Santa Bárbara
+12,5,0.0,San Blas De Los Sauces
+12,16,0.0,General Ortiz De Ocampo
+2,86,6.0,Pellegrini
+11,3,0.0,Caleu Caleu
+2,71,1.0,Luján
+16,7,0.0,Ñorquinco
+2,98,6.0,Saavedra
+10,12,0.0,Cochinoca
+2,23,5.0,Castelli
+22,14,0.0,Juan F. Ibarra
+15,11,0.0,Catan Lil
+2,97,7.0,Roque Pérez
+2,120,6.0,Monte Hermoso
+17,5,0.0,Anta
+2,2,4.0,Alberti
+9,7,0.0,Bermejo
+8,14,0.0,Federal
+12,8,0.0,Felipe Varela
+13,10,10.0,Junín
+17,17,0.0,Cafayate
+12,14,0.0,General Belgrano
+8,5,0.0,Victoria
+5,23,0.0,San Miguel
+2,100,6.0,Salliqueló
+11,5,0.0,Chalileo
+10,16,0.0,Susques
+10,3,0.0,San Antonio
+17,7,0.0,Orán
+22,10,0.0,Figueroa
+15,8,0.0,Loncopué
+8,16,0.0,Feliciano
+17,23,0.0,Los Andes
+7,7,0.0,Languiñeo
+16,13,0.0,El Cuy
+15,12,0.0,Picún Leufú
+11,17,0.0,Quemu Quemu
+22,3,0.0,Aguirre
+3,14,0.0,Antofagasta De La Sierra
+12,4,0.0,Arauco
+8,18,0.0,San Salvador
+17,11,0.0,Cerrillos
+5,22,0.0,General Alvear
+12,18,0.0,General San Martín
+2,135,5.0,Lezama
+20,3,0.0,Magallanes
+12,2,0.0,Sanagasta
+22,26,0.0,Sarmiento
+16,5,0.0,Nueve De Julio
+17,2,0.0,La Caldera
+12,10,0.0,Vinchina
+15,10,0.0,Aluminé
+12,13,0.0,Angel Vicente Peñaloza
+6,3,0.0,Libertad
+19,8,0.0,Belgrano
+17,13,0.0,La Viña
+18,13,0.0,Sarmiento
+8,11,0.0,Islas Del Ibicuy
+3,4,0.0,Ancasti
+16,4,0.0,Valcheta
+22,19,0.0,Quebrachos
+18,5,0.0,Zonda
+9,8,0.0,Matacos
+12,9,0.0,General Lamadrid
+5,24,0.0,Itati
+17,22,0.0,La Poma
+17,20,0.0,Cachi
+22,2,0.0,Avellaneda
+11,13,0.0,Lihuel Calel
+3,5,0.0,El Alto
+17,10,0.0,Santa Victoria
+11,14,0.0,Limay Mahuida
+18,16,0.0,Valle Fértil
+7,3,0.0,Telsen
+5,5,0.0,Esquina
+22,23,0.0,Silipica
+11,9,0.0,Curaco
+7,10,0.0,Mártires
+10,14,0.0,Santa Catalina
+17,16,0.0,La Candelaria
+10,8,0.0,Valle Grande
+10,13,0.0,Rinconada
+5,25,0.0,Berón De Astrada
+11,7,0.0,Chical-Co
+17,6,0.0,Rivadavia
+24,5,0.0,Tolhuin
