@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Peronometro Electoral</title>
+      <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+      <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+      <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+      <style>
+         body { margin: 0; padding: 0; }
+         #map { position: absolute; top: 0; bottom: 0; width: 100%; z-index: 0; }
+         #menuleft { position: absolute; top: 10px; left: 10px; z-index: 2; }
+         #menuright { position: absolute; top: 10px; right: 10px; z-index: 2; }
+      </style>
+   </head>
+   <body>
+      <style>
+         body {
+         overflow: hidden;
+         }
+         body * {
+         -webkit-touch-callout: none;
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         user-select: none;
+         }
+         .map {
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         width: 100%;
+         }
+      </style>
+      <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.js"></script>
+      <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.css" type="text/css">
+      <div id="comparison-container">
+         <div id="before" class="map"></div>
+         <div id="after" class="map"></div>
+      </div>
+      <!-- 
+         <div id="menu">
+         <input id="satellite-streets-v12" type="radio" name="rtoggle" value="satellite" checked="checked">
+         <label for="satellite-streets-v12">satellite streets</label>
+         <input id="light-v11" type="radio" name="rtoggle" value="light">
+         <label for="light-v11">light</label>
+         <input id="dark-v11" type="radio" name="rtoggle" value="dark">
+         <label for="dark-v11">dark</label>
+         <input id="streets-v12" type="radio" name="rtoggle" value="streets">
+         <label for="streets-v12">streets</label>
+         <input id="outdoors-v12" type="radio" name="rtoggle" value="outdoors">
+         <label for="outdoors-v12">outdoors</label>
+         </div>   
+         -->
+      <div id="menuleft">
+         <select id="menu_eleccion_tag_left">
+            <option value="GRAL11n">Gral 2011</option>
+            <option value="PASO13n">Paso 2013</option>
+            <option value="GRAL13n">Gral 2013</option>
+            <option value="PASO15n">Paso 2015</option>
+            <option value="GRAL15n">Gral 2015</option>
+            <option value="BLTG15n">Balotage 15</option>
+            <option value="PASO17n">Paso 2017</option>
+            <option value="GRAL17n">Gral 2017</option>
+            <option value="PASO19n">Paso 2019</option>
+            <option value="GRAL19n">Gral 2019</option>
+            <option value="PASO21n">Paso 2021</option>
+         </select>
+         <select id="menu_cargo_tag_left">
+            <option value="PR">Presidente/a</option>
+            <option value="DN">Dip. Nacs.</option>
+         </select>
+         <select id="menu_fuerza_left">
+            <option value="PERON">PERON-K</option>
+            <option value="PRO">PRO</option>
+            <option value="PROVINCIAL">Provincial</option>
+            <option value="IZQUIERDA">Izquierda</option>
+            <option value="SOCIALISTA">Socialista</option>
+            <option value="UCR">UCR</option>
+            <option value="MASSA">Massa</option>
+            <option value="OTROS">Otros</option>
+         </select>
+      </div>
+      <div id="menuright">
+         <select id="menu_eleccion_tag_right">
+            <option value="GRAL11n">Gral 2011</option>
+            <option value="PASO13n">Paso 2013</option>
+            <option value="GRAL13n">Gral 2013</option>
+            <option value="PASO15n">Paso 2015</option>
+            <option value="GRAL15n">Gral 2015</option>
+            <option value="BLTG15n">Balotage 15</option>
+            <option value="PASO17n">Paso 2017</option>
+            <option value="GRAL17n">Gral 2017</option>
+            <option value="PASO19n">Paso 2019</option>
+            <option value="GRAL19n">Gral 2019</option>
+            <option value="PASO21n">Paso 2021</option>
+         </select>
+         <select id="menu_cargo_tag_right">
+            <option value="PR">Presidente/a</option>
+            <option value="DN">Dip. Nacs.</option>
+         </select>
+         <select id="menu_fuerza_right">
+            <option value="PERON">PERON-K</option>
+            <option value="PRO">PRO</option>
+            <option value="PROVINCIAL">Provincial</option>
+            <option value="IZQUIERDA">Izquierda</option>
+            <option value="SOCIALISTA">Socialista</option>
+            <option value="UCR">UCR</option>
+            <option value="MASSA">Massa</option>
+            <option value="OTROS">Otros</option>
+         </select>
+      </div>
+      <script>
+         // Fetch the style_info.json file
+         fetch('./style_info.json')
+         .then(response => response.json())
+         .then(data => {
+         // Assign the loaded data to the stylesMapping variable
+         const stylesMapping = data;
+         
+         
+         
+         mapboxgl.accessToken = 'pk.eyJ1IjoibWF0dXRlaWdsZXNpYXMyIiwiYSI6ImNrbzgxNmlpcjFqMHoydXBkczlpNWZjOWwifQ.0rO8qjKulnRvNknh_h29NA';
+         const beforeMap = new mapboxgl.Map({
+          container: 'before',
+          // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+          style: 'mapbox://styles/matuteiglesias2/cli0m2p2800hx01pj2gfg1943',
+          center: [0, 0],
+          zoom: 0
+         });
+         
+         const afterMap = new mapboxgl.Map({
+          container: 'after',
+          style: 'mapbox://styles/matuteiglesias2/cli0m2pkm01y601pa061f456n',
+          center: [0, 0],
+          zoom: 0
+         });
+         
+         
+         // A selector or reference to HTML element
+         const container = '#comparison-container';
+         
+         const map = new mapboxgl.Compare(beforeMap, afterMap, container, {
+          // Set this to enable comparing two maps by mouse movement:
+          // mousemove: true
+         });
+         
+         
+         function updateMapStyle() {
+         // JavaScript variable names:
+         const menu_eleccion_tag_left = document.getElementById('menu_eleccion_tag_left');
+         const menu_cargo_tag_left = document.getElementById('menu_cargo_tag_left');
+         const menu_fuerza_left = document.getElementById('menu_fuerza_left');
+         
+         const menu_eleccion_tag_right = document.getElementById('menu_eleccion_tag_right');
+         const menu_cargo_tag_right = document.getElementById('menu_cargo_tag_right');
+         const menu_fuerza_right = document.getElementById('menu_fuerza_right');
+         
+         const selectedEleccion_left = menu_eleccion_tag_left.value;
+         const selectedCargo_left = menu_cargo_tag_left.value;
+         const selectedFuerza_left = menu_fuerza_left.value;
+         
+         const selectedEleccion_right = menu_eleccion_tag_right.value;
+         const selectedCargo_right = menu_cargo_tag_right.value;
+         const selectedFuerza_right = menu_fuerza_right.value;
+         
+         // Define the styles mapping for the left and right maps
+         
+         
+         const styleKey_left = `${selectedEleccion_left}_${selectedCargo_left}_${selectedFuerza_left}`;
+         const styleKey_right = `${selectedEleccion_right}_${selectedCargo_right}_${selectedFuerza_right}`;
+         
+         let beforeStyle = 'mapbox://styles/matuteiglesias2/cli0m2p2800hx01pj2gfg1943';
+         let afterStyle = 'mapbox://styles/matuteiglesias2/cli0m2pkm01y601pa061f456n';
+         
+         if (stylesMapping.hasOwnProperty(styleKey_left)) {
+         const styleId = stylesMapping[styleKey_left].style_id;
+         beforeStyle = `mapbox://styles/matuteiglesias2/${styleId}`;
+         }
+         
+         
+         if (stylesMapping.hasOwnProperty(styleKey_right)) {
+          const styleId = stylesMapping[styleKey_right].style_id;
+          afterStyle = `mapbox://styles/matuteiglesias2/${styleId}`;
+         }
+         
+         beforeMap.setStyle(beforeStyle);
+         afterMap.setStyle(afterStyle);
+         
+         console.log('updateMapStyle function called');
+         console.log('Selected values:');
+         console.log('Eleccion Left:', selectedEleccion_left);
+         console.log('Cargo Left:', selectedCargo_left);
+         console.log('Fuerza Left:', selectedFuerza_left);
+         console.log('Eleccion Right:', selectedEleccion_right);
+         console.log('Cargo Right:', selectedCargo_right);
+         console.log('Fuerza Right:', selectedFuerza_right);
+         console.log('beforeStyle:', beforeStyle);
+         console.log('afterStyle:', afterStyle);
+         }
+         
+         const menu_eleccion_tag_left = document.getElementById('menu_eleccion_tag_left');
+         const menu_cargo_tag_left = document.getElementById('menu_cargo_tag_left');
+         const menu_fuerza_left = document.getElementById('menu_fuerza_left');
+         
+         // Event listeners:
+         menu_eleccion_tag_left.addEventListener('change', updateMapStyle);
+         menu_cargo_tag_left.addEventListener('change', updateMapStyle);
+         menu_fuerza_left.addEventListener('change', updateMapStyle);
+         
+         
+         const menu_eleccion_tag_right = document.getElementById('menu_eleccion_tag_right');
+         const menu_cargo_tag_right = document.getElementById('menu_cargo_tag_right');
+         const menu_fuerza_right = document.getElementById('menu_fuerza_right');
+         
+         menu_eleccion_tag_right.addEventListener('change', updateMapStyle);
+         menu_cargo_tag_right.addEventListener('change', updateMapStyle);
+         menu_fuerza_right.addEventListener('change', updateMapStyle);
+         
+         
+         
+         
+         
+         
+         
+         })
+         .catch(error => {
+         console.error('Error loading style_info.json:', error);
+         });
+         
+         
+         
+         
+         
+      </script>
+   </body>
+</html>
+
