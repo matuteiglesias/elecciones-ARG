@@ -1,0 +1,11 @@
+cargo_id,cargo_nombre,cargo_tag
+3,Diputado Nacional,DN
+1,Presidente,PR
+4,Gobernador,GB
+6,Diputado Provincial,DP
+2,Senador Nacional,SN
+5,Senador Provincial,SP
+10,Concejales,CO
+9,Parlamentarios Mercosur Provinciales,MP
+8,Parlamentarios Mercosur Nacionales,MN
+7,Concejal,IN
