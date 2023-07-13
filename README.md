@@ -8,6 +8,8 @@ El directorio `datos` contiene varios subdirectorios con diferentes tipos de dat
 
 - `BD`: Contiene archivos resultantes de la descomposición de la información electoral en un esquema de base de datos relacional. Conserva los nombres originales de las entidades mientras aborda variaciones e inconsistencias.
 
+![EDR de la base](/images/EDR.png)
+
 - `geojson`: Incluye archivos GeoJSON que asocian información electoral con polígonos del mapa. Estos archivos representan provincias, departamentos y circuitos electorales, incluyendo datos de votación tanto en porcentajes como en cantidades. Los archivos de polígonos simplificados también están disponibles para reducir el tamaño del archivo sin comprometer la calidad visual.
 
 - `info`: Contiene archivos misceláneos con información adicional, tales como radio referencias censales, mapeos de “secciones” a departamentos, archivos IGN (Instituto Geográfico Nacional) de provincias y departamentos, valores de calibración de escala para colores de mapas y mapeos de circuitos a departamentos y provincias.
