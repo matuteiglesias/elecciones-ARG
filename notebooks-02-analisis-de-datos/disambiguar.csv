@@ -1,0 +1,568 @@
+,distrito_id,seccion_id,seccionprovincial_id,seccion_nombre,codprov,coddepto,IN1,NAM,counts,_merge
+1,01,001,0.0,Comuna 01,01,001,2007.0,Comuna 1,19.0,both
+9,01,002,0.0,Comuna 02,01,002,2014.0,Comuna 2,10.0,both
+15,01,003,0.0,Comuna 03,01,003,2021.0,Comuna 3,13.0,both
+2,01,004,0.0,Comuna 04,01,004,2028.0,Comuna 4,15.0,both
+6,01,005,0.0,Comuna 05,01,005,2035.0,Comuna 5,10.0,both
+19,01,006,0.0,Comuna 06,01,006,2042.0,Comuna 6,7.0,both
+33,01,007,0.0,Comuna 07,01,007,2049.0,Comuna 7,12.0,both
+5,01,008,0.0,Comuna 08,01,008,2056.0,Comuna 8,4.0,both
+8,01,009,0.0,Comuna 09,01,009,2063.0,Comuna 9,11.0,both
+17,01,010,0.0,Comuna 10,01,010,2070.0,Comuna 10,11.0,both
+25,01,011,0.0,Comuna 11,01,011,2077.0,Comuna 11,11.0,both
+7,01,012,0.0,Comuna 12,01,012,2084.0,Comuna 12,10.0,both
+10,01,013,0.0,Comuna 13,01,013,2091.0,Comuna 13,14.0,both
+34,01,014,0.0,Comuna 14,01,014,2098.0,Comuna 14,10.0,both
+0,01,015,0.0,Comuna 15,01,015,2105.0,Comuna 15,10.0,both
+268,02,121,7.0,25 De Mayo,02,121,6854.0,25 de Mayo,12.0,both
+311,02,001,6.0,Adolfo Alsina,02,001,6007.0,Adolfo Alsina,7.0,both
+432,02,056,6.0,Adolfo Gonzales Chaves,02,056,6014.0,Adolfo Gonzales Chaves,3.0,both
+461,02,002,4.0,Alberti,02,002,6021.0,Alberti,6.0,both
+299,02,003,3.0,Almirante Brown,02,003,6028.0,Almirante Brown,10.0,both
+417,02,010,2.0,Arrecifes,02,010,6077.0,Arrecifes,5.0,both
+303,02,004,3.0,Avellaneda,02,004,6035.0,Avellaneda,14.0,both
+282,02,005,5.0,Ayacucho,02,005,6042.0,Ayacucho,11.0,both
+273,02,006,7.0,Azul,02,006,6049.0,Azul,12.0,both
+325,02,007,6.0,Bahía Blanca,02,007,6056.0,Bahía Blanca,20.0,both
+352,02,008,5.0,Balcarce,02,008,6063.0,Balcarce,8.0,both
+274,02,009,2.0,Baradero,02,009,6070.0,Baradero,9.0,both
+362,02,059,6.0,Benito Juárez,02,059,6084.0,Benito Juárez,7.0,both
+283,02,011,3.0,Berazategui,02,011,6091.0,Berazategui,13.0,both
+286,02,012,3.0,Berisso,02,012,6098.0,Berisso,4.0,both
+392,02,013,7.0,Bolívar,02,013,6105.0,Bolívar,10.0,both
+403,02,014,4.0,Bragado,02,014,6112.0,Bragado,10.0,both
+370,02,015,3.0,Brandsen,02,015,6119.0,Brandsen,7.0,both
+381,02,016,1.0,Campana,02,016,6126.0,Campana,5.0,both
+340,02,018,2.0,Capitán Sarmiento,02,018,6140.0,Capitán Sarmiento,2.0,both
+391,02,019,4.0,Carlos Casares,02,019,6147.0,Carlos Casares,8.0,both
+319,02,020,4.0,Carlos Tejedor,02,020,6154.0,Carlos Tejedor,6.0,both
+376,02,021,2.0,Carmen De Areco,02,021,6161.0,Carmen de Areco,3.0,both
+455,02,023,5.0,Castelli,02,023,6168.0,Castelli,3.0,both
+335,02,017,3.0,Cañuelas,02,017,6134.0,Cañuelas,8.0,both
+399,02,029,4.0,Chacabuco,02,029,6210.0,Chacabuco,11.0,both
+331,02,030,5.0,Chascomús,02,030,6218.0,Chascomús,9.0,both
+260,02,031,4.0,Chivilcoy,02,031,6224.0,Chivilcoy,16.0,both
+348,02,024,2.0,Colón,02,024,6175.0,Colón,4.0,both
+270,02,025,6.0,Coronel Dorrego,02,025,6189.0,Coronel Dorrego,10.0,both
+322,02,026,6.0,Coronel Pringles,02,026,6196.0,Coronel Pringles,7.0,both
+350,02,027,6.0,Coronel Rosales,02,027,6182.0,Coronel de Marina Leonardo Rosales,5.0,both
+291,02,028,6.0,Coronel Suárez,02,028,6203.0,Coronel Suárez,12.0,both
+359,02,032,6.0,Daireaux,02,032,6231.0,Daireaux,5.0,both
+332,02,033,5.0,Dolores,02,033,6238.0,Dolores,4.0,both
+281,02,034,3.0,Ensenada,02,034,6245.0,Ensenada,4.0,both
+346,02,035,1.0,Escobar,02,035,6252.0,Escobar,6.0,both
+324,02,036,3.0,Esteban Echeverría,02,036,6260.0,Esteban Echeverría,12.0,both
+383,02,037,2.0,Exaltación De La Cruz,02,037,6266.0,Exaltación de la Cruz,7.0,both
+380,02,132,3.0,Ezeiza,02,132,6270.0,Ezeiza,3.0,both
+406,02,127,4.0,F. Ameghino,02,127,6277.0,Florentino Ameghino,3.0,both
+267,02,038,3.0,Florencio Varela,02,038,6274.0,Florencio Varela,10.0,both
+396,02,039,5.0,General Alvarado,02,039,6280.0,General Alvarado,5.0,both
+353,02,040,7.0,General Alvear,02,040,6287.0,General Alvear,3.0,both
+393,02,041,4.0,General Arenales,02,041,6294.0,General Arenales,7.0,both
+387,02,042,5.0,General Belgrano,02,042,6301.0,General Belgrano,5.0,both
+308,02,043,5.0,General Guido,02,043,6308.0,General Guido,3.0,both
+296,02,044,6.0,General La Madrid,02,044,6322.0,General La Madrid,7.0,both
+412,02,045,1.0,General Las Heras,02,045,6329.0,General Las Heras,3.0,both
+318,02,046,5.0,General Lavalle,02,046,6336.0,General Lavalle,2.0,both
+351,02,047,5.0,General Madariaga,02,047,6315.0,General Juan Madariaga,4.0,both
+413,02,048,5.0,General Paz,02,048,6343.0,General Paz,8.0,both
+357,02,049,4.0,General Pinto,02,049,6351.0,General Pinto,6.0,both
+342,02,050,5.0,General Pueyrredón,02,050,6357.0,General Pueyrredón,8.0,both
+314,02,051,1.0,General Rodríguez,02,051,6364.0,General Rodríguez,1.0,both
+317,02,052,1.0,General San Martín,02,052,6371.0,General San Martín,11.0,both
+292,02,054,4.0,General Viamonte,02,054,6385.0,General Viamonte,7.0,both
+298,02,055,4.0,General Villegas,02,055,6392.0,General Villegas,12.0,both
+258,02,057,6.0,Guamini,02,057,6399.0,Guaminí,5.0,both
+426,02,058,4.0,Hipólito Yrigoyen,02,058,6406.0,Hipólito Yrigoyen,3.0,both
+261,02,134,1.0,Hurlingham,02,134,6408.0,Hurlingham,3.0,both
+278,02,133,1.0,Ituzaingo,02,133,6410.0,Ituzaingó,3.0,both
+313,02,129,1.0,J. C. Paz,02,129,6412.0,José C. Paz,3.0,both
+257,02,060,4.0,Junín,02,060,6413.0,Junín,13.0,both
+336,02,119,5.0,La Costa,02,119,6420.0,La Costa,6.0,both
+289,02,061,3.0,La Matanza,02,061,6427.0,La Matanza,24.0,both
+306,02,063,8.0,La Plata,02,063,60441.0,La Plata,64.0,both
+302,02,062,3.0,Lanús,02,062,6434.0,Lanús,13.0,both
+427,02,064,6.0,Laprida,02,064,6448.0,Laprida,5.0,both
+323,02,065,5.0,Las Flores,02,065,6455.0,Las Flores,8.0,both
+355,02,066,4.0,Leandro N. Alem,02,066,6462.0,Leandro N. Alem,5.0,both
+490,02,135,5.0,Lezama,02,135,6466.0,Lezama,1.0,both
+276,02,067,4.0,Lincoln,02,067,6469.0,Lincoln,15.0,both
+421,02,068,5.0,Loberia,02,068,6476.0,Lobería,7.0,both
+402,02,069,3.0,Lobos,02,069,6483.0,Lobos,9.0,both
+266,02,070,3.0,Lomas De Zamora,02,070,6490.0,Lomas de Zamora,13.0,both
+451,02,071,1.0,Luján,02,071,6497.0,Luján,8.0,both
+280,02,072,3.0,Magdalena,02,072,6505.0,Magdalena,6.0,both
+294,02,073,5.0,Maipú,02,073,6511.0,Maipú,4.0,both
+279,02,130,1.0,Malvinas Argentinas,02,130,6515.0,Malvinas Argentinas,8.0,both
+437,02,074,5.0,Mar Chiquita,02,074,6518.0,Mar Chiquita,7.0,both
+368,02,075,1.0,Marcos Paz,02,075,6525.0,Marcos Paz,2.0,both
+295,02,076,1.0,Mercedes,02,076,6532.0,Mercedes,11.0,both
+385,02,077,1.0,Merlo,02,077,6539.0,Merlo,6.0,both
+326,02,078,5.0,Monte,02,078,6547.0,Monte,7.0,both
+459,02,120,6.0,Monte Hermoso,02,120,6553.0,Monte Hermoso,1.0,both
+341,02,079,1.0,Moreno,02,079,6560.0,Moreno,8.0,both
+386,02,080,1.0,Morón,02,080,6568.0,Morón,6.0,both
+367,02,081,1.0,Navarro,02,081,6574.0,Navarro,10.0,both
+328,02,082,5.0,Necochea,02,082,6581.0,Necochea,8.0,both
+269,02,083,4.0,Nueve De Julio,02,083,6588.0,9 de Julio,15.0,both
+356,02,084,7.0,Olavarría,02,084,6595.0,Olavarría,24.0,both
+293,02,022,6.0,Patagones,02,022,6602.0,Patagones,6.0,both
+334,02,085,4.0,Pehuajó,02,085,6609.0,Pehuajó,9.0,both
+449,02,086,6.0,Pellegrini,02,086,6616.0,Pellegrini,1.0,both
+297,02,087,2.0,Pergamino,02,087,6623.0,Pergamino,20.0,both
+410,02,088,5.0,Pila,02,088,6630.0,Pila,3.0,both
+263,02,089,1.0,Pilar,02,089,6638.0,Pilar,6.0,both
+377,02,090,5.0,Pinamar,02,090,6644.0,Pinamar,4.0,both
+394,02,128,3.0,Presidente Perón,02,128,6648.0,Presidente Perón,4.0,both
+301,02,091,6.0,Puan,02,091,6651.0,Puán,8.0,both
+337,02,131,3.0,Punta Indio,02,131,6655.0,Punta Indio,5.0,both
+264,02,092,3.0,Quilmes,02,092,6658.0,Quilmes,17.0,both
+423,02,093,2.0,Ramallo,02,093,6665.0,Ramallo,7.0,both
+305,02,094,5.0,Rauch,02,094,6672.0,Rauch,8.0,both
+375,02,095,4.0,Rivadavia,02,095,6679.0,Rivadavia,7.0,both
+371,02,096,2.0,Rojas,02,096,6686.0,Rojas,8.0,both
+458,02,097,7.0,Roque Pérez,02,097,6693.0,Roque Pérez,6.0,both
+453,02,098,6.0,Saavedra,02,098,6700.0,Saavedra,6.0,both
+271,02,099,7.0,Saladillo,02,099,6707.0,Saladillo,8.0,both
+470,02,100,6.0,Salliqueló,02,100,6721.0,Salliqueló,2.0,both
+354,02,101,2.0,Salto,02,101,6714.0,Salto,8.0,both
+338,02,102,2.0,San Andrés De Giles,02,102,6728.0,San Andrés de Giles,7.0,both
+382,02,103,2.0,San Antonio De Areco,02,103,6735.0,San Antonio de Areco,5.0,both
+419,02,104,5.0,San Cayetano,02,104,6742.0,San Cayetano,5.0,both
+272,02,105,1.0,San Fernando,02,105,6749.0,San Fernando,15.0,both
+378,02,106,1.0,San Isidro,02,106,6756.0,San Isidro,10.0,both
+339,02,053,1.0,San Miguel,02,053,6760.0,San Miguel,8.0,both
+320,02,107,2.0,San Nicolás,02,107,6763.0,San Nicolás,13.0,both
+373,02,108,2.0,San Pedro,02,108,6770.0,San Pedro,11.0,both
+388,02,109,3.0,San Vicente,02,109,6778.0,San Vicente,4.0,both
+330,02,110,1.0,Suipacha,02,110,6784.0,Suipacha,4.0,both
+365,02,111,5.0,Tandil,02,111,6791.0,Tandil,8.0,both
+405,02,112,7.0,Tapalqué,02,112,6798.0,Tapalqué,6.0,both
+316,02,113,1.0,Tigre,02,113,6805.0,Tigre,8.0,both
+398,02,116,5.0,Tordillo,02,116,6812.0,Tordillo,1.0,both
+349,02,114,6.0,Tornquist,02,114,6819.0,Tornquist,5.0,both
+333,02,115,4.0,Trenque Lauquen,02,115,6826.0,Trenque Lauquen,9.0,both
+364,02,117,6.0,Tres Arroyos,02,117,6833.0,Tres Arroyos,14.0,both
+265,02,118,1.0,Tres De Febrero,02,118,6840.0,Tres de Febrero,8.0,both
+422,02,126,6.0,Tres Lomas,02,126,6847.0,Tres Lomas,2.0,both
+290,02,122,1.0,Vicente López,02,122,6861.0,Vicente López,9.0,both
+327,02,123,5.0,Villa Gesell,02,123,6868.0,Villa Gesell,1.0,both
+307,02,124,6.0,Villarino,02,124,6875.0,Villarino,6.0,both
+321,02,125,2.0,Zárate,02,125,6882.0,Zárate,10.0,both
+14,03,010,0.0,Ambato,03,010,10007.0,Ambato,8.0,both
+504,03,004,0.0,Ancasti,03,004,10014.0,Ancasti,11.0,both
+16,03,012,0.0,Andalgalá,03,012,10021.0,Andalgalá,11.0,both
+484,03,014,0.0,Antofagasta De La Sierra,03,014,10028.0,Antofagasta de la Sierra,2.0,both
+22,03,013,0.0,Belén,03,013,10035.0,Belén,16.0,both
+26,03,002,0.0,Capayan,03,002,10042.0,Capayán,12.0,both
+11,03,001,0.0,Capital,03,001,10049.0,Capital,9.0,both
+515,03,005,0.0,El Alto,03,005,10056.0,El Alto,8.0,both
+18,03,009,0.0,Fray Mamerto Esquiú,03,009,10063.0,Fray Mamerto Esquiú,5.0,both
+59,03,003,0.0,La Paz,03,003,10070.0,La Paz,11.0,both
+13,03,007,0.0,Paclin,03,007,10077.0,Paclín,7.0,both
+36,03,011,0.0,Pomán,03,011,10084.0,Pomán,9.0,both
+21,03,016,0.0,Santa María,03,016,10091.0,Santa María,11.0,both
+31,03,006,0.0,Santa Rosa,03,006,10098.0,Santa Rosa,11.0,both
+20,03,015,0.0,Tinogasta,03,015,10105.0,Tinogasta,16.0,both
+37,03,008,0.0,Valle Viejo,03,008,10112.0,Valle viejo,8.0,both
+44,04,002,0.0,Calamuchita,04,002,14007.0,Calamuchita,28.0,both
+3,04,001,0.0,Capital,04,001,14014.0,Capital,110.0,both
+53,04,003,0.0,Colón,04,003,14021.0,Colón,24.0,both
+24,04,004,0.0,Cruz Del Eje,04,004,14028.0,Cruz del Eje,29.0,both
+23,04,005,0.0,General Roca,04,005,14035.0,General Roca,14.0,both
+38,04,006,0.0,General San Martín,04,006,14042.0,General San Martín,19.0,both
+35,04,007,0.0,Ischilin,04,007,14049.0,Ischilín,14.0,both
+42,04,008,0.0,Juárez Celman,04,008,14056.0,Juárez Celman,17.0,both
+50,04,009,0.0,Marcos Juárez,04,009,14063.0,Marcos Juárez,21.0,both
+70,04,010,0.0,Minas,04,010,14070.0,Minas,15.0,both
+58,04,011,0.0,Pocho,04,011,14077.0,Pocho,9.0,both
+27,04,012,0.0,Punilla,04,012,14091.0,Punilla,26.0,both
+32,04,017,0.0,Roque Sáenz Peña,04,017,14084.0,Presidente Roque Sáenz Peña,10.0,both
+30,04,013,0.0,Río Cuarto,04,013,14098.0,Río Cuarto,40.0,both
+51,04,014,0.0,Río Primero,04,014,14105.0,Río Primero,30.0,both
+91,04,015,0.0,Río Seco,04,015,14112.0,Río Seco,13.0,both
+28,04,016,0.0,Río Segundo,04,016,14119.0,Río Segundo,22.0,both
+29,04,018,0.0,San Alberto,04,018,14126.0,San Alberto,21.0,both
+39,04,019,0.0,San Javier,04,019,14133.0,San Javier,14.0,both
+40,04,020,0.0,San Justo,04,020,14140.0,San Justo,46.0,both
+48,04,021,0.0,Santa María,04,021,14147.0,Santa María,29.0,both
+54,04,022,0.0,Sobremonte,04,022,14154.0,Sobremonte,5.0,both
+43,04,023,0.0,Tercero Arriba,04,023,14161.0,Tercero Arriba,18.0,both
+46,04,024,0.0,Totoral,04,024,14168.0,Totoral,12.0,both
+45,04,025,0.0,Tulumba,04,025,14175.0,Tulumba,14.0,both
+4,04,026,0.0,Unión,04,026,14182.0,Unión,29.0,both
+89,05,011,0.0,Bella Vista,05,011,18007.0,Bella Vista,5.0,both
+528,05,025,0.0,Berón De Astrada,05,025,18014.0,Berón de Astrada,3.0,both
+52,05,001,0.0,Capital,05,001,18021.0,Capital,19.0,both
+113,05,017,0.0,Concepción,05,017,18028.0,Concepción,7.0,both
+41,05,003,0.0,Curuzú Cuatiá,05,003,18035.0,Curuzú Cuatiá,6.0,both
+109,05,012,0.0,Empedrado,05,012,18042.0,Empedrado,5.0,both
+520,05,005,0.0,Esquina,05,005,18049.0,Esquina,7.0,both
+488,05,022,0.0,General Alvear,05,022,18056.0,General Alvear,4.0,both
+114,05,014,0.0,General Paz,05,014,18063.0,General Paz,9.0,both
+49,05,002,0.0,Goya,05,002,18070.0,Goya,9.0,both
+510,05,024,0.0,Itati,05,024,18077.0,Itatí,4.0,both
+140,05,019,0.0,Ituzaingo,05,019,18084.0,Ituzaingó,10.0,both
+79,05,006,0.0,Lavalle,05,006,18091.0,Lavalle,6.0,both
+105,05,018,0.0,Mburucuya,05,018,18098.0,Mburucuyá,4.0,both
+60,05,004,0.0,Mercedes,05,004,18035.0,Curuzú Cuatiá,7.0,both
+81,05,009,0.0,Monte Caseros,05,009,18112.0,Monte Caseros,6.0,both
+99,05,008,0.0,Paso De Los Libres,05,008,18119.0,Paso de los Libres,6.0,both
+110,05,015,0.0,Saladas,05,015,18126.0,Saladas,5.0,both
+111,05,021,0.0,San Cosme,05,021,18133.0,San Cosme,8.0,both
+128,05,010,0.0,San Luis Del Palmar,05,010,18140.0,San Luis del Palmar,7.0,both
+120,05,016,0.0,San Martín,05,016,18147.0,San Martín,6.0,both
+469,05,023,0.0,San Miguel,05,023,18154.0,San Miguel,5.0,both
+119,05,013,0.0,San Roque,05,013,18161.0,San Roque,6.0,both
+72,05,007,0.0,Santo Tomé,05,007,18168.0,Santo Tomé,9.0,both
+64,05,020,0.0,Sauce,05,020,18175.0,Sauce,5.0,both
+87,06,021,0.0,12 De Octubre,06,021,22036.0,12 de Octubre,5.0,both
+170,06,022,0.0,2 De Abril,06,022,22039.0,2 de Abril,1.0,both
+77,06,015,0.0,25 De Mayo,06,015,22168.0,25 de Mayo,5.0,both
+127,06,019,0.0,9 De Julio,06,019,22105.0,9 de Julio,2.0,both
+92,06,024,0.0,Almirante Brown,06,024,22007.0,Almirante Brown,4.0,both
+96,06,007,0.0,Bermejo,06,007,22014.0,Bermejo,9.0,both
+94,06,020,0.0,Chacabuco,06,020,22028.0,Chacabuco,2.0,both
+62,06,013,0.0,Comandante Fernández,06,013,22021.0,Comandante Fernández,11.0,both
+115,06,023,0.0,Fray J. Sta. María De Oro,06,023,22043.0,Fray Justo Santa María de Oro,2.0,both
+83,06,018,0.0,General Belgrano,06,018,22049.0,General Belgrano,2.0,both
+225,06,004,0.0,General Donovan,06,004,22056.0,General Donovan,4.0,both
+61,06,025,0.0,General Güemes,06,025,22063.0,General Güemes,12.0,both
+80,06,017,0.0,Independencia,06,017,22070.0,Independencia,5.0,both
+220,06,008,0.0,Lib. Gral. San Martín,06,008,22084.0,Libertador General San Martín,10.0,both
+499,06,003,0.0,Libertad,06,003,22077.0,Libertad,4.0,both
+93,06,016,0.0,Maipú,06,016,22091.0,Maipú,3.0,both
+56,06,011,0.0,Mayor L. J. Fontana,06,011,22098.0,Mayor Luis Jorge Fontana,7.0,both
+57,06,012,0.0,O'Higgins,06,012,22112.0,O'Higgins,4.0,both
+284,06,006,0.0,Pcia. De La Plaza,06,006,22119.0,Presidencia de la Plaza,4.0,both
+193,06,002,0.0,Primero De Mayo,06,002,22126.0,1ro. de Mayo,4.0,both
+75,06,014,0.0,Quitilipi,06,014,22133.0,Quitilipi,4.0,both
+47,06,001,0.0,San Fernando,06,001,22140.0,San Fernando,36.0,both
+443,06,010,0.0,San Lorenzo,06,010,22147.0,San Lorenzo,3.0,both
+404,06,005,0.0,Sargento Cabral,06,005,22154.0,Sargento Cabral,4.0,both
+240,06,009,0.0,Tapenaga,06,009,22161.0,Tapenagá,5.0,both
+68,07,002,0.0,Biedma,07,002,26007.0,Biedma,7.0,both
+98,07,005,0.0,Cushamen,07,005,26014.0,Cushamen,11.0,both
+76,07,015,0.0,Escalante,07,015,26021.0,Escalante,24.0,both
+85,07,011,0.0,F. Ameghino,07,011,26028.0,Florentino Ameghino,1.0,both
+63,07,006,0.0,Futaleufú,07,006,26035.0,Futaleufú,13.0,both
+74,07,012,0.0,Gaiman,07,012,26042.0,Gaiman,6.0,both
+88,07,004,0.0,Gastre,07,004,26049.0,Gastre,3.0,both
+479,07,007,0.0,Languiñeo,07,007,26056.0,Languiñeo,4.0,both
+523,07,010,0.0,Mártires,07,010,26063.0,Mártires,2.0,both
+411,07,009,0.0,Paso De Indios,07,009,26070.0,Paso de Indios,2.0,both
+55,07,001,0.0,Rawson,07,001,26077.0,Rawson,24.0,both
+71,07,013,0.0,Río Senguer,07,013,26084.0,Río Senguer,7.0,both
+86,07,014,0.0,Sarmiento,07,014,26091.0,Sarmiento,3.0,both
+78,07,008,0.0,Tehuelches,07,008,26098.0,Tehuelches,4.0,both
+519,07,003,0.0,Telsen,07,003,26105.0,Telsen,2.0,both
+201,08,002,0.0,,,,,,,left_only
+442,08,015,0.0,Colón,08,015,30008.0,Colón,21.0,both
+372,08,013,0.0,Concordia,08,013,30015.0,Concordia,22.0,both
+366,08,004,0.0,Diamante,08,004,30021.0,Diamante,20.0,both
+259,08,017,0.0,Federación,08,017,30028.0,Federación,16.0,both
+463,08,014,0.0,Federal,08,014,30035.0,Federal,14.0,both
+477,08,016,0.0,Feliciano,08,016,30042.0,Feliciano,7.0,both
+409,08,007,0.0,Gualeguay,08,007,30049.0,Gualeguay,13.0,both
+363,08,010,0.0,Gualeguaychú,08,010,30056.0,Gualeguaychú,27.0,both
+503,08,011,0.0,Islas Del Ibicuy,08,011,30063.0,Islas del Ibicuy,7.0,both
+300,08,003,0.0,La Paz,08,003,30070.0,La Paz,18.0,both
+397,08,006,0.0,Nogoyá,08,006,30077.0,Nogoyá,17.0,both
+275,08,001,0.0,Paraná,08,001,30084.0,Paraná,58.0,both
+486,08,018,0.0,San Salvador,08,018,30088.0,San Salvador,6.0,both
+253,08,008,0.0,Tala,08,008,30091.0,Tala,16.0,both
+312,08,009,0.0,Uruguay,08,009,30098.0,Uruguay,27.0,both
+468,08,005,0.0,Victoria,08,005,30105.0,Victoria,13.0,both
+441,08,012,0.0,Villaguay,08,012,30113.0,Villaguay,16.0,both
+462,09,007,0.0,Bermejo,09,007,34007.0,Bermejo,11.0,both
+106,09,001,0.0,Formosa,09,001,34014.0,Formosa,22.0,both
+178,09,002,0.0,Laishi,09,002,34021.0,Laishí,7.0,both
+508,09,008,0.0,Matacos,09,008,34028.0,Matacos,2.0,both
+84,09,006,0.0,Patiño,09,006,34035.0,Patiño,20.0,both
+136,09,005,0.0,Pilagas,09,005,34042.0,Pilagás,8.0,both
+69,09,003,0.0,Pilcomayo,09,003,34049.0,Pilcomayo,11.0,both
+67,09,004,0.0,Pirané,09,004,34056.0,Pirané,18.0,both
+95,09,009,0.0,Ramón Lista,09,009,34063.0,Ramón Lista,8.0,both
+454,10,012,0.0,Cochinoca,10,012,38007.0,Cochinoca,13.0,both
+429,10,004,0.0,El Carmen,10,004,38014.0,El Carmen,9.0,both
+288,10,001,0.0,General Belgrano,10,001,38021.0,Dr. Manuel Belgrano,22.0,both
+390,10,011,0.0,Humahuaca,10,011,38028.0,Humahuaca,14.0,both
+329,10,007,0.0,Ledesma,10,007,38035.0,Ledesma,10.0,both
+418,10,002,0.0,Palpalá,10,002,38042.0,Palpalá,3.0,both
+527,10,013,0.0,Rinconada,10,013,38049.0,Rinconada,5.0,both
+473,10,003,0.0,San Antonio,10,003,38056.0,San Antonio,4.0,both
+414,10,005,0.0,San Pedro,10,005,38063.0,San Pedro,11.0,both
+446,10,006,0.0,Santa Bárbara,10,006,38070.0,Santa Bárbara,6.0,both
+524,10,014,0.0,Santa Catalina,10,014,38077.0,Santa Catalina,11.0,both
+472,10,016,0.0,Susques,10,016,38084.0,Susques,7.0,both
+431,10,010,0.0,Tilcara,10,010,38094.0,Tilcara,9.0,both
+433,10,009,0.0,Tumbaya,10,009,38098.0,Tumbaya,7.0,both
+526,10,008,0.0,Valle Grande,10,008,38105.0,Valle Grande,8.0,both
+408,10,015,0.0,Yavi,10,015,38112.0,Yavi,7.0,both
+102,11,001,0.0,Atreuco,11,001,42007.0,Atreucó,5.0,both
+450,11,003,0.0,Caleu Caleu,11,003,42014.0,Caleu Caleu,1.0,both
+82,11,002,0.0,Capital,11,002,42021.0,Capital,3.0,both
+103,11,004,0.0,Catriló,11,004,42028.0,Catriló,4.0,both
+471,11,005,0.0,Chalileo,11,005,42049.0,Chalileo,2.0,both
+121,11,006,0.0,Chapaleufu,11,006,42056.0,Chapaleufú,6.0,both
+529,11,007,0.0,Chical-Co,11,007,42063.0,Chical Co,2.0,both
+117,11,008,0.0,Conhelo,11,008,42035.0,Conhelo,6.0,both
+522,11,009,0.0,Curaco,11,009,42042.0,Curacó,2.0,both
+104,11,010,0.0,Guatrache,11,010,42070.0,Guatraché,5.0,both
+155,11,011,0.0,Hucal,11,011,42077.0,Hucal,4.0,both
+514,11,013,0.0,Lihuel Calel,11,013,42084.0,Lihuel Calel,1.0,both
+517,11,014,0.0,Limay Mahuida,11,014,42091.0,Limay Mahuida,2.0,both
+134,11,012,0.0,Loventue,11,012,42098.0,Loventué,5.0,both
+100,11,015,0.0,Maraco,11,015,42105.0,Maracó,6.0,both
+129,11,016,0.0,Puelen,11,016,42112.0,Puelén,2.0,both
+482,11,017,0.0,Quemu Quemu,11,017,42119.0,Quemú Quemú,4.0,both
+132,11,018,0.0,Rancul,11,018,42126.0,Rancul,7.0,both
+154,11,019,0.0,Realicó,11,019,42133.0,Realicó,7.0,both
+164,11,020,0.0,Toay,11,020,42140.0,Toay,4.0,both
+416,11,021,0.0,Trenel,11,021,42147.0,Trenel,3.0,both
+197,11,022,0.0,Utracán,11,022,42154.0,Utracán,6.0,both
+498,12,013,0.0,Angel Vicente Peñaloza,12,013,46056.0,General  Angel V. Peñaloza,7.0,both
+485,12,004,0.0,Arauco,12,004,46007.0,Arauco,7.0,both
+389,12,001,0.0,Capital,12,001,46014.0,Capital,27.0,both
+374,12,003,0.0,Castro Barros,12,003,46021.0,Castro Barros,8.0,both
+343,12,012,0.0,Chamical,12,012,46035.0,Chamical,5.0,both
+415,12,006,0.0,Chilecito,12,006,46042.0,Chilecito,11.0,both
+401,12,007,0.0,Famatina,12,007,46049.0,Famatina,8.0,both
+464,12,008,0.0,Felipe Varela,12,008,46028.0,Coronel Felipe Varela,11.0,both
+467,12,014,0.0,General Belgrano,12,014,46063.0,General Belgrano,6.0,both
+509,12,009,0.0,General Lamadrid,12,009,46077.0,General Lamadrid,1.0,both
+448,12,016,0.0,General Ortiz De Ocampo,12,016,46084.0,General Ocampo,7.0,both
+489,12,018,0.0,General San Martín,12,018,46091.0,General San Martín,10.0,both
+435,12,011,0.0,Independencia,12,011,46105.0,Independencia,3.0,both
+361,12,015,0.0,Juan Facundo Quiroga,12,015,46070.0,General Juan F. Quiroga,7.0,both
+439,12,017,0.0,Rosario Vera Peñaloza,12,017,46112.0,Rosario Vera Peñaloza,13.0,both
+447,12,005,0.0,San Blas De Los Sauces,12,005,46119.0,San Blas de Los Sauces,6.0,both
+492,12,002,0.0,Sanagasta,12,002,46126.0,Sanagasta,1.0,both
+496,12,010,0.0,Vinchina,12,010,46098.0,Vinchina,4.0,both
+160,13,001,9.0,Capital,13,001,50007.0,Capital,27.0,both
+146,13,018,12.0,General Alvear,13,018,50014.0,General Alvear,8.0,both
+65,13,002,11.0,Godoy Cruz,13,002,50021.0,Godoy Cruz,9.0,both
+66,13,003,9.0,Guaymallén,13,003,50028.0,Guaymallén,14.0,both
+465,13,010,10.0,Junín,13,010,50035.0,Junín,6.0,both
+172,13,015,10.0,La Paz,13,015,50042.0,La Paz,3.0,both
+73,13,004,9.0,Las Heras,13,004,50049.0,Las Heras,16.0,both
+97,13,005,9.0,Lavalle,13,005,50056.0,Lavalle,7.0,both
+107,13,007,11.0,Luján,13,007,50063.0,Cuyo,11.0,both
+90,13,006,10.0,Maipú,13,006,50070.0,Maipú,14.0,both
+142,13,017,12.0,Malargüe,13,017,50077.0,Malargüe,6.0,both
+137,13,011,10.0,Rivadavia,13,011,50084.0,Rivadavia,8.0,both
+151,13,013,11.0,San Carlos,13,013,50091.0,San Carlos,6.0,both
+112,13,009,10.0,San Martín,13,009,50098.0,San Martín,10.0,both
+123,13,016,12.0,San Rafael,13,016,50105.0,San Rafael,22.0,both
+141,13,014,10.0,Santa Rosa,13,014,50112.0,Santa Rosa,7.0,both
+116,13,012,11.0,Tunuyán,13,012,50119.0,Tunuyán,8.0,both
+101,13,008,11.0,Tupungato,13,008,50126.0,Tupungato,7.0,both
+167,14,011,0.0,25 De Mayo,,,,,,left_only
+125,14,002,0.0,Apóstoles,,,,,,left_only
+162,14,010,0.0,Cainguas,,,,,,left_only
+124,14,003,0.0,Candelaria,,,,,,left_only
+108,14,001,0.0,Capital,,,,,,left_only
+126,14,005,0.0,Concepción De La Sierra,,,,,,left_only
+180,14,017,0.0,General Manuel Belgrano,,,,,,left_only
+182,14,013,0.0,Guaraní,,,,,,left_only
+118,14,016,0.0,Iguazú,,,,,,left_only
+159,14,009,0.0,L. General San Martín,,,,,,left_only
+131,14,004,0.0,Leandro N. Alem,,,,,,left_only
+163,14,012,0.0,Montecarlo,,,,,,left_only
+150,14,008,0.0,Oberá,,,,,,left_only
+148,14,006,0.0,San Javier,,,,,,left_only
+133,14,015,0.0,San Pedro,,,,,,left_only
+186,14,014,0.0,El Dorado,14,014,54014.0,Cainguás,5.0,both
+144,14,007,0.0,San Ignacio,14,007,54007.0,Apóstoles,4.0,both
+497,15,010,0.0,Aluminé,15,010,58007.0,Aluminé,10.0,both
+424,15,003,0.0,Añelo,15,003,58014.0,Añelo,5.0,both
+457,15,011,0.0,Catan Lil,15,011,58021.0,Catán Lil,8.0,both
+407,15,005,0.0,Chos Malal,15,005,58042.0,Chos Malal,9.0,both
+345,15,013,0.0,Collon Curá,15,013,58028.0,Collón Curá,6.0,both
+277,15,001,0.0,Confluencia,15,001,58035.0,Confluencia,33.0,both
+369,15,014,0.0,Huiliches,15,014,58049.0,Huiliches,6.0,both
+476,15,008,0.0,Loncopué,15,008,58063.0,Loncopué,7.0,both
+445,15,016,0.0,Los Lagos,15,016,58070.0,Los Lagos,5.0,both
+379,15,015,0.0,Lácar,15,015,58056.0,Lácar,10.0,both
+420,15,006,0.0,Minas,15,006,58077.0,Minas,9.0,both
+310,15,004,0.0,Pehuenches,15,004,58091.0,Pehuenches,6.0,both
+440,15,009,0.0,Picunches,15,009,58105.0,Picunches,6.0,both
+481,15,012,0.0,Picún Leufú,15,012,58098.0,Picún Leufú,3.0,both
+347,15,002,0.0,Zapala,15,002,58112.0,Zapala,11.0,both
+428,15,007,0.0,Ñorquín,15,007,58084.0,Ñorquín,9.0,both
+262,16,006,0.0,25 De Mayo,16,006,62091.0,25 de Mayo,7.0,both
+304,16,001,0.0,Adolfo Alsina,16,001,62007.0,Adolfo Alsina,25.0,both
+360,16,011,0.0,Avellaneda,16,011,62014.0,Avellaneda,8.0,both
+315,16,009,0.0,Bariloche,16,009,62021.0,Bariloche,34.0,both
+358,16,002,0.0,Conesa,16,002,62028.0,Conesa,1.0,both
+480,16,013,0.0,El Cuy,16,013,62035.0,El Cuy,7.0,both
+309,16,012,0.0,General Roca,16,012,62042.0,General Roca,51.0,both
+494,16,005,0.0,Nueve De Julio,16,005,62049.0,9 de julio,2.0,both
+438,16,010,0.0,Pichi Mahuida,16,010,62063.0,Pichi Mahuida,1.0,both
+425,16,008,0.0,Pilcaniyeu,16,008,62070.0,Pilcaniyeu,6.0,both
+344,16,003,0.0,San Antonio Oeste,16,003,62077.0,San Antonio,4.0,both
+505,16,004,0.0,Valcheta,16,004,62084.0,Valcheta,1.0,both
+452,16,007,0.0,Ñorquinco,16,007,62056.0,Ñorquinco,4.0,both
+460,17,005,0.0,Anta,17,005,66007.0,Anta,22.0,both
+512,17,020,0.0,Cachi,17,020,66014.0,Cachi,8.0,both
+466,17,017,0.0,Cafayate,17,017,66021.0,Cafayate,7.0,both
+152,17,001,0.0,Capital,17,001,66028.0,Capital,57.0,both
+487,17,011,0.0,Cerrillos,17,011,66035.0,Cerrillos,13.0,both
+138,17,012,0.0,Chicoana,17,012,66042.0,Chicoana,9.0,both
+200,17,003,0.0,General Güemes,17,003,66049.0,General Güemes,8.0,both
+149,17,014,0.0,Guachipas,17,014,66063.0,Guachipas,1.0,both
+139,17,009,0.0,Iruya,17,009,66070.0,Iruya,15.0,both
+495,17,002,0.0,La Caldera,17,002,66077.0,La Caldera,5.0,both
+525,17,016,0.0,La Candelaria,17,016,66084.0,La Candelaria,4.0,both
+511,17,022,0.0,La Poma,17,022,66091.0,La Poma,3.0,both
+501,17,013,0.0,La Viña,17,013,66098.0,La Viña,3.0,both
+478,17,023,0.0,Los Andes,17,023,66105.0,Los Andes,4.0,both
+177,17,004,0.0,Metán,17,004,66112.0,Metán,13.0,both
+122,17,019,0.0,Molinos,17,019,66119.0,Molinos,7.0,both
+474,17,007,0.0,Orán,17,007,66126.0,Orán,20.0,both
+530,17,006,0.0,Rivadavia,17,006,66133.0,Rivadavia,24.0,both
+145,17,015,0.0,Rosario De La Frontera,17,015,66140.0,Rosario de la Frontera,17.0,both
+130,17,021,0.0,Rosario De Lerma,17,021,66147.0,Rosario de Lerma,15.0,both
+135,17,018,0.0,San Carlos,17,018,66154.0,San Carlos,10.0,both
+169,17,008,0.0,San Martín,17,008,66056.0,General José de San Martín,25.0,both
+516,17,010,0.0,Santa Victoria,17,010,66161.0,Santa Victoria,15.0,both
+205,18,010,0.0,Albardón,,,,,,left_only
+203,18,009,0.0,Angaco,,,,,,left_only
+287,18,019,0.0,Calingasta,,,,,,left_only
+147,18,001,0.0,Capital,,,,,,left_only
+165,18,015,0.0,Caucete,,,,,,left_only
+189,18,003,0.0,Chimbas,,,,,,left_only
+384,18,018,0.0,Iglesia,,,,,,left_only
+194,18,017,0.0,Jáchal,,,,,,left_only
+12,18,012,0.0,Pocito,,,,,,left_only
+176,18,006,0.0,Rawson,,,,,,left_only
+153,18,004,0.0,Rivadavia,,,,,,left_only
+179,18,008,0.0,San Martín,,,,,,left_only
+157,18,002,0.0,Santa Lucía,,,,,,left_only
+502,18,013,0.0,Sarmiento,,,,,,left_only
+181,18,011,0.0,Ullúm,,,,,,left_only
+518,18,016,0.0,Valle Fértil,,,,,,left_only
+507,18,005,0.0,Zonda,,,,,,left_only
+174,18,014,0.0,25 De Mayo,18,014,70014.0,Angaco,7.0,both
+173,18,007,0.0,Nueve De Julio,18,007,70007.0,Albardón,7.0,both
+156,19,007,0.0,Ayacucho,19,007,74007.0,Ayacucho,5.0,both
+500,19,008,0.0,Belgrano,19,008,74014.0,Belgrano,4.0,both
+166,19,004,0.0,Chacabuco,19,004,74028.0,Chacabuco,9.0,both
+254,19,009,0.0,Gobernador Dupuy,19,009,74042.0,Gobernador Dupuy,9.0,both
+158,19,006,0.0,Junín,19,006,74049.0,Junín,13.0,both
+143,19,003,0.0,Pedernera,19,003,74035.0,General Pedernera,34.0,both
+192,19,002,0.0,Pringles,19,002,74021.0,Coronel Pringles,13.0,both
+168,19,001,0.0,Pueyrredon,19,001,74056.0,Juan Martín de Pueyrredón,39.0,both
+430,19,005,0.0,San Martín,19,005,74063.0,Libertador General San Martín,7.0,both
+183,20,005,0.0,Corpen Aike,20,005,78007.0,Corpen Aike,2.0,both
+161,20,001,0.0,Deseado,20,001,78014.0,Deseado,9.0,both
+196,20,007,0.0,Güer Aike,20,007,78021.0,Güer Aike,4.0,both
+204,20,006,0.0,Lago Argentino,20,006,78028.0,Lago Argentino,3.0,both
+184,20,002,0.0,Lago Buenos Aires,20,002,78035.0,Lago Buenos Aires,2.0,both
+491,20,003,0.0,Magallanes,20,003,78042.0,Magallanes,1.0,both
+195,20,004,0.0,Río Chico,20,004,78049.0,Río Chico,2.0,both
+171,21,014,0.0,,,,,,,left_only
+199,21,015,0.0,,,,,,,left_only
+239,21,010,0.0,,,,,,,left_only
+212,21,001,0.0,Belgrano,21,001,82007.0,Belgrano,6.0,both
+219,21,002,0.0,Caseros,21,002,82014.0,Caseros,13.0,both
+242,21,003,0.0,Castellanos,21,003,82021.0,Castellanos,49.0,both
+251,21,004,0.0,Constitución,21,004,82028.0,Constitución,19.0,both
+256,21,005,0.0,Garay,21,005,82035.0,Garay,9.0,both
+175,21,006,0.0,General López,21,006,82042.0,General López,33.0,both
+223,21,007,0.0,General Obligado,21,007,82049.0,General Obligado,45.0,both
+243,21,008,0.0,Iriondo,21,008,82056.0,Iriondo,13.0,both
+232,21,009,0.0,La Capital,21,009,82063.0,La Capital,43.0,both
+245,21,011,0.0,Las Colonias,21,011,82070.0,Las Colonias,41.0,both
+241,21,012,0.0,Nueve De Julio,21,012,82077.0,9 de Julio,12.0,both
+252,21,013,0.0,Rosario,21,013,82084.0,Rosario,84.0,both
+209,21,016,0.0,San Cristóbal,21,016,82091.0,San Cristóbal,34.0,both
+207,21,017,0.0,San Javier,21,017,82098.0,San Javier,12.0,both
+214,21,018,0.0,San Jerónimo,21,018,82105.0,San Jerónimo,23.0,both
+210,21,019,0.0,San Justo,21,019,82112.0,San Justo,21.0,both
+213,21,020,0.0,San Lorenzo,21,020,82119.0,San Lorenzo,16.0,both
+215,21,021,0.0,San Martín,21,021,82126.0,San Martín,17.0,both
+227,21,022,0.0,Vera,21,022,82133.0,Vera,22.0,both
+483,22,003,0.0,Aguirre,22,003,86007.0,Aguirre,4.0,both
+191,22,004,0.0,Alberdi,22,004,86014.0,Alberdi,6.0,both
+198,22,005,0.0,Atamisqui,22,005,86021.0,Atamisqui,7.0,both
+513,22,002,0.0,Avellaneda,22,002,86028.0,Avellaneda,9.0,both
+190,22,006,0.0,Banda,22,006,86035.0,Banda,24.0,both
+400,22,007,0.0,Belgrano,22,007,86042.0,Belgrano,4.0,both
+228,22,001,0.0,Capital,22,001,86049.0,Capital,25.0,both
+188,22,009,0.0,Choya,22,009,86063.0,Choya,13.0,both
+185,22,008,0.0,Copo,22,008,86056.0,Copo,7.0,both
+475,22,010,0.0,Figueroa,22,010,86070.0,Figueroa,11.0,both
+231,22,011,0.0,Guasayán,22,011,86084.0,Guasayán,7.0,both
+187,22,012,0.0,Jiménez,22,012,86091.0,Jiménez,10.0,both
+456,22,014,0.0,Juan F. Ibarra,22,014,86098.0,Juan F. Ibarra,9.0,both
+434,22,013,0.0,Loreto,22,013,86105.0,Loreto,12.0,both
+230,22,015,0.0,Mitre,22,015,86112.0,Mitre,2.0,both
+222,22,016,0.0,Moreno,22,016,86119.0,Moreno,13.0,both
+226,22,017,0.0,Ojo De Agua,22,017,86126.0,Ojo de Agua,7.0,both
+221,22,018,0.0,Pellegrini,22,018,86133.0,Pellegrini,11.0,both
+506,22,019,0.0,Quebrachos,22,019,86140.0,Quebrachos,10.0,both
+238,22,020,0.0,Rivadavia,22,020,86154.0,Rivadavia,4.0,both
+217,22,021,0.0,Robles,22,021,86161.0,Robles,9.0,both
+211,22,022,0.0,Río Hondo,22,022,86147.0,Río Hondo,15.0,both
+444,22,025,0.0,Salavina,22,025,86168.0,Salavina,10.0,both
+285,22,024,0.0,San Martín,22,024,86175.0,San Martín,8.0,both
+493,22,026,0.0,Sarmiento,22,026,86182.0,Sarmiento,4.0,both
+521,22,023,0.0,Silipica,22,023,86189.0,Silipica,5.0,both
+216,22,027,0.0,Taboada,22,027,86077.0,General Taboada,7.0,both
+246,23,007,15.0,Alberdi,23,007,90042.0,Juan Bautista Alberdi,5.0,both
+255,23,013,14.0,Burruyacu,23,013,90007.0,Burruyacú,26.0,both
+202,23,001,13.0,Capital,23,001,90084.0,Capital,47.0,both
+218,23,005,15.0,Chicligasta,23,005,90021.0,Chicligasta,13.0,both
+234,23,012,14.0,Cruz Alta,23,012,90014.0,Cruz Alta,32.0,both
+224,23,003,15.0,Famaillá,23,003,90028.0,Famaillá,10.0,both
+235,23,009,14.0,Graneros,23,009,90035.0,Graneros,8.0,both
+229,23,008,15.0,La Cocha,23,008,90049.0,La Cocha,9.0,both
+237,23,011,14.0,Leales,23,011,90056.0,Leales,20.0,both
+206,23,002,15.0,Lules,23,002,90063.0,Lules,8.0,both
+208,23,004,15.0,Monteros,23,004,90070.0,Monteros,19.0,both
+233,23,006,15.0,Río Chico,23,006,90077.0,Río Chico,8.0,both
+248,23,010,14.0,Simoca,23,010,90091.0,Simoca,20.0,both
+436,23,017,15.0,Tafí Del Valle,23,017,90098.0,Tafí del Valle,5.0,both
+249,23,016,15.0,Tafí Viejo,23,016,90105.0,Tafí Viejo,14.0,both
+250,23,014,14.0,Trancas,23,014,90112.0,Trancas,15.0,both
+247,23,015,15.0,Yerba Buena,23,015,90119.0,Yerba Buena,7.0,both
+395,24,003,0.0,Antártida Argentina,,,,,,left_only
+244,24,002,0.0,Río Grande,,,,,,left_only
+531,24,005,0.0,Tolhuin,,,,,,left_only
+236,24,001,0.0,Ushuaia,,,,,,left_only
+532,,,,,04,000,14175.0,Tulumba,1.0,right_only
+533,,,,,14,021,54021.0,Candelaria,7.0,right_only
+534,,,,,14,028,54028.0,Capital,12.0,right_only
+535,,,,,14,035,54035.0,Concepción,2.0,right_only
+536,,,,,14,042,54042.0,Eldorado,5.0,right_only
+537,,,,,14,049,54049.0,General Manuel Belgrano,3.0,right_only
+538,,,,,14,056,54056.0,Guaraní,2.0,right_only
+539,,,,,14,063,54063.0,Iguazú,4.0,right_only
+540,,,,,14,070,54070.0,Leandro N. Alem,8.0,right_only
+541,,,,,14,077,54077.0,Libertador General San Martín,6.0,right_only
+542,,,,,14,084,54084.0,Montecarlo,3.0,right_only
+543,,,,,14,091,54091.0,Oberá,9.0,right_only
+544,,,,,14,098,54098.0,San Ignacio,8.0,right_only
+545,,,,,14,105,54105.0,San Javier,4.0,right_only
+546,,,,,14,112,54112.0,San Pedro,4.0,right_only
+547,,,,,14,119,54119.0,25de Mayo,3.0,right_only
+548,,,,,18,021,70021.0,Calingasta,4.0,right_only
+549,,,,,18,028,70028.0,Capital,31.0,right_only
+550,,,,,18,035,70035.0,Caucete,13.0,right_only
+551,,,,,18,042,70042.0,Chimbas,6.0,right_only
+552,,,,,18,049,70049.0,Iglesia,5.0,right_only
+553,,,,,18,056,70056.0,Jachal,14.0,right_only
+554,,,,,18,063,70063.0,9 de Julio,2.0,right_only
+555,,,,,18,070,70070.0,Pocito,6.0,right_only
+556,,,,,18,077,70077.0,Rawson,8.0,right_only
+557,,,,,18,084,70084.0,Rivadavia,8.0,right_only
+558,,,,,18,091,70091.0,San Martín,3.0,right_only
+559,,,,,18,098,70098.0,Santa Lucía,7.0,right_only
+560,,,,,18,105,70105.0,Sarmiento,11.0,right_only
+561,,,,,18,112,70112.0,Ullum,2.0,right_only
+562,,,,,18,119,70119.0,Valle Fértil,7.0,right_only
+563,,,,,18,126,70126.0,25 de Mayo,4.0,right_only
+564,,,,,18,133,70133.0,Zonda,1.0,right_only
+565,,,,,24,01,94014.0,Ushuaia,13.0,right_only
+566,,,,,24,02,94007.0,Río Grande,9.0,right_only
