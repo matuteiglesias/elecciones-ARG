@@ -1,0 +1,4 @@
+lake_root: ${ELEC_LAKE}
+canon_parquet: ${ELEC_LAKE}/canon/bd/parquet
+geo_sources: ${ELEC_LAKE}/geo/sources
+exports: ${ELEC_LAKE}/exports
