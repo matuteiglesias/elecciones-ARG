@@ -1,0 +1,92 @@
+BLTG15n_PR_POSITIVO_Cambiemos
+BLTG15n_PR_POSITIVO_Frente Para La Victoria
+GRAL11n_DN_POSITIVO_Alianza Compromiso Federal
+GRAL11n_DN_POSITIVO_Alianza Frente Amplio Progresista
+GRAL11n_DN_POSITIVO_Alianza Frente Para La Victoria
+GRAL11n_DN_POSITIVO_Alianza Unión Para El Desarrollo Social
+GRAL11n_DN_POSITIVO_Resto
+GRAL11n_PR_POSITIVO_Alianza Compromiso Federal
+GRAL11n_PR_POSITIVO_Alianza Frente Amplio Progresista
+GRAL11n_PR_POSITIVO_Alianza Frente Para La Victoria
+GRAL11n_PR_POSITIVO_Alianza Unión Para El Desarrollo Social
+GRAL11n_PR_POSITIVO_Resto
+GRAL13n_DN_POSITIVO_Frente Para La Victoria
+GRAL13n_DN_POSITIVO_Resto
+GRAL13n_DN_POSITIVO_Frente Progresista Civico Y Social
+GRAL13n_DN_POSITIVO_Frente Renovador
+GRAL13n_DN_POSITIVO_Union Civica Radical
+GRAL15n_DN_POSITIVO_Alianza Cambiemos
+GRAL15n_DN_POSITIVO_Alianza Frente Para La Victoria
+GRAL15n_DN_POSITIVO_Alianza Unidos Por Una Nueva Alternativa (Una)
+GRAL15n_DN_POSITIVO_Resto
+GRAL15n_DN_POSITIVO_Cambiemos
+GRAL15n_PR_POSITIVO_Alianza Cambiemos
+GRAL15n_PR_POSITIVO_Alianza Frente De Izquierda Y De Los Trabajadores
+GRAL15n_PR_POSITIVO_Alianza Frente Para La Victoria
+GRAL15n_PR_POSITIVO_Alianza Unidos Por Una Nueva Alternativa (Una)
+GRAL15n_PR_POSITIVO_Resto
+GRAL17n_DN_POSITIVO_Frente De Izquierda Y De Los Trabajadores
+GRAL17n_DN_POSITIVO_Resto
+GRAL17n_DN_POSITIVO_Cambiemos
+GRAL17n_DN_POSITIVO_Frente Justicialista
+GRAL17n_DN_POSITIVO_Unidad Ciudadana
+GRAL19n_DN_POSITIVO_Consenso Federal
+GRAL19n_DN_POSITIVO_Frente De Izquierda Y De Trabajadores - Unidad
+GRAL19n_DN_POSITIVO_Frente De Todos
+GRAL19n_DN_POSITIVO_Juntos Por El Cambio
+GRAL19n_DN_POSITIVO_Resto
+GRAL19n_PR_POSITIVO_Consenso Federal
+GRAL19n_PR_POSITIVO_Frente De Izquierda Y De Trabajadores - Unidad
+GRAL19n_PR_POSITIVO_Frente De Todos
+GRAL19n_PR_POSITIVO_Juntos Por El Cambio
+GRAL19n_PR_POSITIVO_Resto
+PASO11n_PR_POSITIVO_Alianza Frente Amplio Progresista
+PASO11n_PR_POSITIVO_Alianza Frente Para La Victoria
+PASO11n_PR_POSITIVO_Alianza Frente Popular
+PASO11n_PR_POSITIVO_Alianza Union Para El Desarrollo Social - Udeso
+PASO11n_PR_POSITIVO_Resto
+PASO13n_DN_POSITIVO_Resto
+PASO13n_DN_POSITIVO_Frente Para La Victoria
+PASO13n_DN_POSITIVO_Frente Progresista Civico Y Social
+PASO13n_DN_POSITIVO_Frente Renovador
+PASO13n_DN_POSITIVO_Union Civica Radical
+PASO15n_DN_POSITIVO_Alianza Cambiemos
+PASO15n_DN_POSITIVO_Alianza Frente Para La Victoria
+PASO15n_DN_POSITIVO_Resto
+PASO15n_DN_POSITIVO_Alianza Unidos Por Una Nueva Alternativa (Una)
+PASO15n_DN_POSITIVO_Alianza Union Por Cordoba
+PASO15n_PR_POSITIVO_Alianza Cambiemos
+PASO15n_PR_POSITIVO_Alianza Frente Para La Victoria
+PASO15n_PR_POSITIVO_Alianza Progresistas
+PASO15n_PR_POSITIVO_Alianza Unidos Por Una Nueva Alternativa (Una)
+PASO15n_PR_POSITIVO_Resto
+PASO17n_DN_POSITIVO_Resto
+PASO17n_DN_POSITIVO_1Pais
+PASO17n_DN_POSITIVO_Cambiemos
+PASO17n_DN_POSITIVO_Frente Justicialista
+PASO17n_DN_POSITIVO_Unidad Ciudadana
+PASO19n_DN_POSITIVO_Consenso Federal
+PASO19n_DN_POSITIVO_Frente De Izquierda Y De Trabajadores - Unidad
+PASO19n_DN_POSITIVO_Frente De Todos
+PASO19n_DN_POSITIVO_Juntos Por El Cambio
+PASO19n_DN_POSITIVO_Resto
+PASO19n_PR_POSITIVO_Consenso Federal
+PASO19n_PR_POSITIVO_Frente De Izquierda Y De Trabajadores - Unidad
+PASO19n_PR_POSITIVO_Frente De Todos
+PASO19n_PR_POSITIVO_Juntos Por El Cambio
+PASO19n_PR_POSITIVO_Resto
+PASO21n_DN_POSITIVO_Frente De Izquierda Y De Trabajadores - Unidad
+PASO21n_DN_POSITIVO_Frente De Todos
+PASO21n_DN_POSITIVO_Juntos Por El Cambio
+PASO21n_DN_POSITIVO_Resto
+PASO21n_DN_POSITIVO_Hacemos Por Córdoba
+PASO23n_DN_POSITIVO_Frente De Izquierda Y De Trabajadores - Unidad
+PASO23n_DN_POSITIVO_Juntos Por El Cambio
+PASO23n_DN_POSITIVO_La Libertad Avanza
+PASO23n_DN_POSITIVO_Resto
+PASO23n_DN_POSITIVO_Union Por La Patria
+PASO23n_PR_POSITIVO_Hacemos Por Nuestro Pais
+PASO23n_PR_POSITIVO_Juntos Por El Cambio
+PASO23n_PR_POSITIVO_La Libertad Avanza
+PASO23n_PR_POSITIVO_Resto
+PASO23n_PR_POSITIVO_Union Por La Patria
