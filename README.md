@@ -1,3 +1,9 @@
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
+[![Data Pipeline](https://img.shields.io/badge/type-ETL%20Pipeline-orange.svg)]()
+[![Open Data](https://img.shields.io/badge/datos%20abiertos-✓-blue.svg)]()
+
+
 
 # **Infraestructura de Datos Electorales — Argentina**
 
