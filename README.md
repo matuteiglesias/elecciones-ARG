@@ -1,18 +1,84 @@
-# Resultados electorales Argentina 2011-2025 — datos, estimación y visualización
+Perfecto. Aquí tenés la versión en **español**, lista para usar como README o documento base de presentación pública. Mantiene la estructura SEO-amigable, pero en tono técnico y profesional.
 
-Este repo contiene **datos de referencia (vía lake), notebooks y utilidades** para
-**resultados electorales Argentina 2025** (elecciones legislativas) y ejercicios de
-**nowcasting** (estimaciones tempranas) por mesa/circuito/distrito. Incluye estilos web
-(Mapbox) y análisis con DuckDB/Parquet. Enfoque especial en **Provincia de Buenos Aires 2025**.
+---
 
-> Lake: `$ELEC_LAKE=/media/matias/Elements/electoral_lake` (canon/raw/geo/exports)
+# **Infraestructura de Datos Electorales — Argentina**
 
-## Qué hay aquí (rápido)
-- **Nowcasting**: betas por mesa para estimaciones tempranas (Sheets-ready).
-- **Analítica**: notebooks de descomposición y cruce EPH.
-- **Web**: plantillas de estilos; los artefactos se generan a `exports/web` en el lake.
-- **Datos**: *no* en Git; están en el **data lake** (Parquet/GeoJSON).
+Este repositorio estandariza y armoniza los conjuntos de datos electorales de la Argentina —desde los CSV provinciales originales hasta tablas de hechos listas para análisis y visualización.
+El pipeline automatiza la **ingesta**, **deduplicación**, **normalización** y **generación de tablas canónicas**, garantizando reproducibilidad y trazabilidad de cada etapa.
 
-## Palabras clave y alcance
-- *Elecciones Legislativas 2025*, *Resultados provisorios*, *Buenos Aires 2025*, *DINE datos*,
-  *resultados por mesa*, *datos abiertos*, *Argentina 2025*.
+---
+
+## **Estructura del repositorio**
+
+```
+pipelines/
+ ├── 10_extract_concat_raw.py   → Fusiona y hashea los archivos electorales crudos
+ ├── 20_normalize_core.py       → Normaliza esquemas y nombres
+ ├── 30_build_dims.py           → Construye las tablas de dimensiones
+ ├── 40_build_facts.py          → Genera la tabla de hechos (mesa×cargo×lista×votos_tipo)
+ └── utils_logging.py           → Configuración unificada de logging
+canon/
+ ├── bd/csv/                    → Salidas finales en formato CSV
+ └── bd/parquet/                → Exportaciones opcionales en Parquet
+logs/                           → Ejecuciones registradas con marca temporal
+```
+
+---
+
+## **Guía de ejecución (Runbook)**
+
+```bash
+# Reconstrucción completa del pipeline
+make all
+
+# Inspeccionar resultados
+du -h canon/
+head canon/bd/csv/votos_fact.csv
+```
+
+Cada script puede ejecutarse de forma independiente.
+El pipeline genera logs detallados bajo `logs/latest` para auditoría y depuración.
+
+---
+
+## **Notas técnicas**
+
+* Identificador de elección (`eleccion_id`) **determinístico**, derivado de:
+  `(año, eleccion_tipo, recuento_tipo, padron_tipo)`
+* Política de duplicados: **keep_first**
+* Los valores faltantes se preservan (no se rellenan con ceros)
+* Grano de la tabla de hechos:
+  **mesa × cargo × agrupación/lista × votos_tipo**
+* CSVs codificados en **UTF-8**, delimitados por comas, listos para cargar en **DuckDB**, **pandas** o motores SQL.
+* Todos los scripts son **idempotentes**: las salidas dependen solo de los datos fuente, no del orden de ejecución.
+
+---
+
+## **Propósito y alcance**
+
+Esta infraestructura busca **fortalecer el acceso público a los datos electorales**, ofrecer **procesos reproducibles** y **facilitar el análisis comparativo** entre años, provincias y tipos de elección.
+El sistema está preparado para integrarse con tableros interactivos o entornos analíticos, manteniendo un diseño modular y extensible.
+
+---
+
+## **Palabras clave (SEO)**
+
+* *Datos electorales Argentina*
+* *Pipeline Python ETL elecciones*
+* *Normalización de resultados electorales*
+* *Transparencia y datos abiertos*
+* *Buenos Aires / elecciones nacionales 2019–2025*
+* *Análisis reproducible de elecciones argentinas*
+
+---
+
+## **Próximos pasos**
+
+* Incorporar actualizaciones en tiempo real durante los comicios.
+* Publicar comparaciones históricas por distrito y tipo de cargo.
+* Integrar visualizaciones interactivas y servicios API para terceros.
+
+---
+
+Si querés, puedo pasarte ahora una **versión Markdown lista para commit**, con formato de encabezados, bloques de código y enlaces internos a los scripts. ¿Querés que te la prepare así?
