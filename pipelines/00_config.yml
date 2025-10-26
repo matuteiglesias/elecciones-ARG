@@ -1,10 +1,116 @@
-raw_glob: "raw/**/ResultadosElectorales.csv"
-staging_dir: "canon/staging"
-out_dir: "canon/bd/csv"
-parquet_dir: "canon/bd/parquet"         # "" to disable parquet
-exports_dir: "exports/out"
-schema_dir: "canon/bd/schema"
-# Names used by 2025 election-day feeds
-ayt_source_label: "AyT"
-candidatos_csv: "inputs/candidatos_2025.csv"
-mesa_roll_csv: "inputs/mesa_roll_2025_ayt.csv"
+# 00_config.yml — stronger contract
+ingest:
+  sources:
+    - pattern: "/media/matias/Elements/electoral_lake/raw/Solo_ResultadosProvisorios_edit/**/ResultadosElectorales.csv"
+      kind: "csv"
+      encoding: "utf-8-sig"       # try in order; fallbacks allowed
+      fallback_encodings: ["latin-1"]
+      dialect: "auto"             # auto|comma|semicolon|tsv               # or sheet name
+  allowed_extensions: ["csv","xlsx"]
+  bad_lines: "error"              # error|skip|warn
+  on_duplicate_files: "keep_first" # keep_first|keep_latest|error (based on hash)
+  required_min_columns:           # extractor refuses to write if missing
+    - año
+    - eleccion_tipo
+    - recuento_tipo
+    - padron_tipo
+
+
+
+
+  header_aliases:                 # robust column unification at ingest
+    "Agrupación": "agrupacion_nombre"
+    "Agrupacion": "agrupacion_nombre"
+    "CodLista": "lista_numero"
+    "ListaNumero": "lista_numero"
+    "Votos": "votos_cantidad"
+  path_regex:                     # derive tuple from folder names when present
+    - regex: ".*/ResultadosElectorales_(?P<eleccion_tipo>PASO|General|Ballotage)(?P<año>\\d{4}).*"
+      map:
+        eleccion_tipo: {"PASO":"PASO","General":"GENERAL","Ballotage":"BALLOTAGE"}
+        año: "int"
+  manifest:
+    write: true
+    out: "canon/staging/manifest.csv"
+    fields: ["source_file","source_sha256","rows","encoding","dialect","año","eleccion_tipo","recuento_tipo","padron_tipo"]
+parquet_dir: "canon/bd/parquet"
+parquet_min_rows: 1000000
+logging:
+  level: "DEBUG"
+
+
+extract:
+  dedup_cols:
+    - año
+    - eleccion_tipo
+    - recuento_tipo
+    - padron_tipo
+    - distrito_id
+    - seccion_id
+    - circuito_id
+    - mesa_id
+    - cargo_id
+    - agrupacion_id
+    - lista_numero
+    - votos_tipo
+
+staging_dir: canon/staging
+schema_dir:  canon/bd/schema
+bd_csv_dir:  canon/bd/csv         # optional: lets 20_ fall back to cargo_table.csv
+
+audits_dir:  canon/staging/audits # where 20_ drops audit CSVs on failure
+
+# Behavior flags
+strict_circuito_numeric: false          # if true, reject any non-digit circuito_id before zfill
+allow_autofinalize_eleccion_dim: false  # if true, 20_ appends missing tuples deterministically
+enforce_votos_tipo_domain: true         # assert mapped values ∈ canonical domain (values of the JSON)
+
+
+candidates_path: "/media/matias/Elements/electoral_lake/raw/2025/2025 Candidaturas Listas Presentadas a la Justicia y Aprobadas al 14-10-2025 13hs.xlsx"
+eleccion_filter:
+  año: "2025"
+  eleccion_tipo: "GENERAL"
+  recuento_tipo: "PROVISORIO"
+  padron_tipo: "NORMAL"
+
+columns_map:
+  posicion: "Posicion"
+  nombres: "Nombres"
+  apellido: "Apellido"
+  dni: "DNI"
+  genero: "Genero"
+  fecha_nac: "Fecha Nacimiento"
+  twitter: "Twitter"
+  facebook: "Facebook"
+  instagram: "Instagram"
+  web: "WEB"
+  youtube: "YouTube"
+  otra_red: "otra_red"
+  # if present:
+  distrito_nombre: "distrito_nombre"
+  cargo_nombre: "cargo_nombre"
+  agrupacion_nombre: "agrupacion_nombre"
+  lista_numero: "lista_numero"
+  lista_nombre: "lista_nombre"
+  titularidad: "Titularidad"
+# optional:
+# suplentes_from_position: 11
+# agrupacion_crosswalk_path: "canon/bd/csv/agrupacion_crosswalk.csv"
+
+# 55_load_mesa_roll.py
+ayt_path: "/media/matias/Elements/electoral_lake/raw/2025/00_DINE_Total pais 2025 Final_21-10 (1).xlsx"
+eleccion_filter:
+  año: "2025"
+  eleccion_tipo: "GENERAL"
+  recuento_tipo: "PROVISORIO"
+  padron_tipo: "NORMAL"
+ayt_columns_map:
+  distrito_id: "DISTRITO"
+  seccion_id:  "SECCION"
+  circuito_id: "CIRCUITO"
+  mesa_id:     "MESA"
+  n_electores: "CANT_ELECTORES AyT"
+canonical_mesa_tipo_fill: "NATIVOS"
+
+
+exports_dir: exports/out
