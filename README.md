@@ -76,10 +76,6 @@ El sistema está preparado para integrarse con tableros interactivos o entornos 
 
 ---
 
-## **Próximos pasos**
-
-* Incorporar actualizaciones en tiempo real durante los comicios.
-* Publicar comparaciones históricas por distrito y tipo de cargo.
-* Integrar visualizaciones interactivas y servicios API para terceros.
-
-
+🔗 Repos relacionados:
+- [atlas-pobreza-argentina](https://github.com/matuteiglesias/atlas-pobreza-argentina)
+- [censo-redatam-parser](https://github.com/matuteiglesias/censo-redatam-parser)
