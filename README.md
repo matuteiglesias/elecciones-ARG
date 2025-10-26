@@ -1,6 +1,3 @@
-Perfecto. Aquí tenés la versión en **español**, lista para usar como README o documento base de presentación pública. Mantiene la estructura SEO-amigable, pero en tono técnico y profesional.
-
----
 
 # **Infraestructura de Datos Electorales — Argentina**
 
@@ -79,6 +76,4 @@ El sistema está preparado para integrarse con tableros interactivos o entornos 
 * Publicar comparaciones históricas por distrito y tipo de cargo.
 * Integrar visualizaciones interactivas y servicios API para terceros.
 
----
 
-Si querés, puedo pasarte ahora una **versión Markdown lista para commit**, con formato de encabezados, bloques de código y enlaces internos a los scripts. ¿Querés que te la prepare así?
