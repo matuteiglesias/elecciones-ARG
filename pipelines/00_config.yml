@@ -1,0 +1,10 @@
+raw_glob: "raw/**/ResultadosElectorales.csv"
+staging_dir: "canon/staging"
+out_dir: "canon/bd/csv"
+parquet_dir: "canon/bd/parquet"         # "" to disable parquet
+exports_dir: "exports/out"
+schema_dir: "canon/bd/schema"
+# Names used by 2025 election-day feeds
+ayt_source_label: "AyT"
+candidatos_csv: "inputs/candidatos_2025.csv"
+mesa_roll_csv: "inputs/mesa_roll_2025_ayt.csv"
