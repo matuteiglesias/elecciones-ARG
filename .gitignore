@@ -1,7 +1,66 @@
+# --- Python / tooling generales ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+.dist/
+build/
+pip-wheel-metadata/
+
+# Entornos / secretos locales
+.venv/
+venv/
 .env
-**/.ipynb_checkpoints/
-**/images/**
-**/*.parquet
-**/*.mbtiles
-**/*.geojson
-web/mapbox_styles/*.json
+.env.*
+*.sqlite
+*.duckdb
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+notebooks/
+
+# --- Logs & artefactos de ejecución ---
+logs/
+!logs/.gitkeep           # deja un marcador vacío si querés conservar la carpeta
+*.log
+*.pid
+*.lock
+
+# --- Proyecto: datos pesados / generados ---
+# Staging y outputs canónicos (se regeneran con `make`)
+canon/staging/
+canon/bd/csv/
+canon/bd/parquet/
+
+# Mantener documentación/esquemas dentro de canon/
+!canon/README.md
+!canon/bd/README.md
+!canon/bd/schemas/**
+!canon/bd/csv/schemas/**
+!canon/bd/parquet/schemas/**
+
+# Intermedios
+*.tmp
+*.tmp.*
+*.tmp.csv
+*~                          # backups de algunos editores
+
+# --- Fixtures pequeñas (sí versionadas) ---
+# Poné muestras chicas aquí y mantenelas
+!fixtures/**
+fixtures/**/*.parquet filter=lfs diff=lfs merge=lfs -text
+fixtures/**/*.csv     text eol=lf
+
+# --- Pipelines / snapshots livianos (si los usás) ---
+snapshots/
+!snapshots/README.md
+
+# --- Make / symlinks de comodidad ---
+logs/latest
