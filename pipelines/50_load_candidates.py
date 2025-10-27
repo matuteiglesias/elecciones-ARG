@@ -13,7 +13,7 @@
 #
 # Config (pipelines/00_config.yml):
 #   staging_dir: canon/staging
-#   schema_dir:  canon/bd/schema
+#   schema_dir:  canon/schema
 #   bd_csv_dir:  canon/bd/csv
 #   candidates_path: "path/to/2025 Candidaturas ... .xlsx"
 #   eleccion_filter:
@@ -143,7 +143,7 @@ def main(args):
     cfg = load_yaml(args.config)
     staging_dir = Path(cfg.get("staging_dir", "canon/staging"))
     bd_csv_dir  = Path(cfg.get("bd_csv_dir", "canon/bd/csv"))
-    bd_schema_dir  = Path(cfg.get("bd_schema_dir", "canon/bd/schema"))
+    bd_schema_dir  = Path(cfg.get("bd_schema_dir", "canon/schema"))
 
     cand_path   = Path(cfg["candidates_path"])
     cols_map    = cfg.get("columns_map", {})

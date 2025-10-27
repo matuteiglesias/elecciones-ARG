@@ -184,7 +184,7 @@ def main(args):
 
     # Dirs
     staging_dir  = Path(cfg.get("staging_dir", "canon/staging"))
-    schema_dir   = Path(cfg.get("schema_dir", "canon/bd/schema"))
+    schema_dir   = Path(cfg.get("schema_dir", "canon/schema"))
     bd_csv_dir   = Path(cfg.get("bd_csv_dir")) if cfg.get("bd_csv_dir") else None
     audits_dir   = Path(cfg.get("audits_dir", staging_dir / "audits"))
 

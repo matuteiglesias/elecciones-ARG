@@ -135,7 +135,7 @@ def finalize_eleccion_dim(df_norm: pd.DataFrame, schema_dir: Path) -> pd.DataFra
 def main(args):
     cfg = load_yaml(args.config)
     staging_dir = Path(cfg.get("staging_dir", "canon/staging"))
-    schema_dir = Path(cfg.get("schema_dir", "canon/bd/schema"))
+    schema_dir = Path(cfg.get("schema_dir", "canon/schema"))
     bd_csv_dir = Path(cfg.get("bd_csv_dir", "canon/bd/csv"))  # output dim path
 
     in_norm = staging_dir / "all_normalized.csv"

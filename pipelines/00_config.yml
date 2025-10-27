@@ -55,7 +55,7 @@ extract:
     - votos_tipo
 
 staging_dir: canon/staging
-schema_dir:  canon/bd/schema
+schema_dir:  canon/schema
 bd_csv_dir:  canon/bd/csv         # optional: lets 20_ fall back to cargo_table.csv
 
 audits_dir:  canon/staging/audits # where 20_ drops audit CSVs on failure

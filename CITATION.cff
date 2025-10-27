@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Por favor cite este repositorio así:"
+authors:
+  - family-names: Iglesias
+    given-names: Matías
+title: "Infraestructura de Datos Electorales Argentina"
+version: "2025.0"
+date-released: 2025-10-26
+url: "https://github.com/matuteiglesias/elecciones-ARG"

@@ -42,7 +42,7 @@ canon/bd/parquet/
 # Mantener documentación/esquemas dentro de canon/
 !canon/README.md
 !canon/bd/README.md
-!canon/bd/schemas/**
+!canon/schemas/**
 !canon/bd/csv/schemas/**
 !canon/bd/parquet/schemas/**
 

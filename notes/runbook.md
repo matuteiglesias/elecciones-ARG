@@ -7,14 +7,14 @@ Here’s a compact runbook you can actually use. I’ll keep it operational, poi
 * Python 3.10+, `pip install -e .` in repo root.
 * Packages: `pandas`, `pyyaml`, `openpyxl`.
 * Expected tree (short):
-  `canon/staging/`, `canon/bd/schema/`, `canon/bd/csv/`, `exports/out/`, `pipelines/*.py`
+  `canon/staging/`, `canon/schema/`, `canon/bd/csv/`, `exports/out/`, `pipelines/*.py`
 
 **Config**: `pipelines/00_config.yml`
 
 ```yaml
 staging_dir: canon/staging
-schema_dir:  canon/bd/schema
-bd_csv_dir:  canon/bd/csv
+schema_dir:  canon/schema
+bd_csv_dir:  canon/csv
 exports_dir: exports/out
 # For 55_load_mesa_roll.py
 ayt_path: "/media/matias/Elements/electoral_lake/raw/2025/00_DINE_Total pais 2025 Final_21-10 (1).xlsx"
@@ -201,7 +201,7 @@ python3 pipelines/80_snapshot_manifest.py --config pipelines/00_config.yml
 ## Troubleshooting (fast)
 
 * **20_normalize_core bombs on `votos_tipo`**
-  → open `canon/bd/schema/votos_tipo_map.json`; add unmapped keys exactly once, rerun 20.
+  → open `canon/schema/votos_tipo_map.json`; add unmapped keys exactly once, rerun 20.
 
 * **30_build_dims says missing election tuple**
   → add the tuple in `eleccion_dim.csv` via 30 (it auto-appends deterministically), rerun 20 then 30.
