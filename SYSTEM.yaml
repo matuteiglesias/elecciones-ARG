@@ -1,0 +1,59 @@
+# This file declares the repository boundary and its place in the GitHub estate.
+schema_version: 1
+id: publicdata.argentina.elections
+repository:
+  id: repo.elecciones-arg
+  github: matuteiglesias/elecciones-ARG
+domain: public-data
+system: argentina.elections
+role: electoral-data-pipeline
+lifecycle: active-bounded
+authority:
+  status: current
+  owns:
+  - election-event identity and election-specific dimensional semantics
+  - source-native electoral district/section/circuit/mesa keys used by the pipeline
+  - candidates, cargos, agrupaciones/listas and vote-type dimensions where supported
+  - mesa-grain vote facts, electoral aggregates, QA and run manifests
+  does_not_own:
+  - official election publication authority
+  - Census or administrative geography authority
+  - circuit geometry releases
+  - Census-to-electoral spatial relations or geographic adjudication
+  - socioeconomic estimation, poverty methodology or income modeling
+interfaces:
+  consumes:
+  - official/provincial electoral source files configured by the pipeline
+  - artifact:arggeo-electoral-geography (optional downstream binding input)
+  produces:
+  - artifact:argentina.elections.dimensions
+  - artifact:argentina.elections.vote-facts
+  - artifact:argentina.elections.aggregates
+  - artifact:argentina.elections.run-manifest
+upstream:
+- repo.argentina-geography (geography artifacts only; no runtime import required)
+downstream:
+- analytical notebooks and public-data consumers
+canonical_commands:
+- name: rebuild-electoral-pipeline
+  command: make all
+  output: canon/
+generated_paths:
+- canon/
+- logs/
+verification:
+  status: runtime-needs-current-source-proof
+  last_verified: '2026-08-03'
+  command: make all
+  unknowns:
+  - current exact election/source coverage must be recorded per run
+  - event-to-geography-vintage binding policy is a consumer decision and is not implicit
+  - current generated outputs must not be inferred from repository commit date
+integration_invariants:
+- electoral district/section/circuit identity is not Census province/department/radio identity
+- similar-looking codes do not establish cross-authority identity
+- Census-to-circuit relations may be N:M and are consumed as factual relations
+- no largest-overlap geographic winner is selected by this repository
+maintenance:
+  cadence: quarterly
+  next_review: '2026-11-01'
