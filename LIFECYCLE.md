@@ -33,3 +33,5 @@ A meaningful runtime verification should record source/election coverage, exact 
 ## Lineage
 
 Older electoral repositories may point here as their successor. Historical predecessors remain useful for genealogy but are not current authority unless explicitly stated. Geographic interoperability is supplied by exact `argentina-geography` releases rather than copied GIS logic.
+
+A bounded predecessor audit completed on 2026-08-30. See [`docs/HISTORICAL_PREDECESSORS.md`](docs/HISTORICAL_PREDECESSORS.md) for the current disposition of the audited legacy workbenches and data-preparation repositories.
